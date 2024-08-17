@@ -1,0 +1,2565 @@
+"Type","Name","Command"
+"Path","C:\Users\Esteban\Documents\WindowsPowerShell\Modules",""
+"Path","C:\Program Files\WindowsPowerShell\Modules",""
+"Path","C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules",""
+"Path","c:\Users\Esteban\.vscode\extensions\ms-vscode.powershell-2024.2.2\modules",""
+"Module","Microsoft.PowerShell.Operation.Validation",""
+"Command","Microsoft.PowerShell.Operation.Validation","Get-OperationValidation: (Description: )"
+"Command","Microsoft.PowerShell.Operation.Validation","Invoke-OperationValidation: (Description: )"
+"Module","OfficeAndAzureTools",""
+"Command","OfficeAndAzureTools","Connect-JGraph: (Description: )"
+"Command","OfficeAndAzureTools","Find-AADGroupmembership: (Description: )"
+"Command","OfficeAndAzureTools","Find-AutopilotDevice: (Description: )"
+"Command","OfficeAndAzureTools","Get-AzureADRoleMembers: (Description: )"
+"Command","OfficeAndAzureTools","Get-IntuneAssignmentReport: (Description: )"
+"Command","OfficeAndAzureTools","Get-IntuneAutopilotAssignmentReport: (Description: )"
+"Command","OfficeAndAzureTools","Get-IntuneDeviceConfigurationPolicyAssignmentReport: (Description: )"
+"Command","OfficeAndAzureTools","Get-IntuneDeviceManagementScriptsAssignmentReport: (Description: )"
+"Command","OfficeAndAzureTools","Get-IntuneLoggedOnUsers: (Description: )"
+"Command","OfficeAndAzureTools","Get-IntuneMobileAppAssignmentReport: (Description: )"
+"Command","OfficeAndAzureTools","Get-IntuneRemediationScriptAssignmentReport: (Description: )"
+"Command","OfficeAndAzureTools","Get-Mailboxsizes: (Description: )"
+"Command","OfficeAndAzureTools","Get-MsolRoleMembers: (Description: )"
+"Command","OfficeAndAzureTools","Get-Office365ServiceHealth: (Description: )"
+"Command","OfficeAndAzureTools","Get-UserMFARegistration: (Description: )"
+"Command","OfficeAndAzureTools","Invoke-AdminPortalCreation: (Description: )"
+"Command","OfficeAndAzureTools","Invoke-CreateAutopilotPartnerCsv: (Description: )"
+"Command","OfficeAndAzureTools","New-IntuneWin32App: (Description: )"
+"Command","OfficeAndAzureTools","New-MgGroupMemberCustom: (Description: )"
+"Command","OfficeAndAzureTools","New-MgUserCustom: (Description: )"
+"Command","OfficeAndAzureTools","New-MultipleIntuneAppAssignments: (Description: )"
+"Command","OfficeAndAzureTools","New-MultipleIntuneDeviceConfigAssignments: (Description: )"
+"Command","OfficeAndAzureTools","New-MultipleIntuneDeviceManagementScriptsAssignments: (Description: )"
+"Command","OfficeAndAzureTools","New-PartnerTenantAdminUser: (Description: )"
+"Command","OfficeAndAzureTools","Remove-AadDevices: (Description: )"
+"Command","OfficeAndAzureTools","Remove-IntuneAutopilotDevice: (Description: )"
+"Command","OfficeAndAzureTools","Remove-IntunePrimaryUser: (Description: )"
+"Command","OfficeAndAzureTools","Rename-IntuneDevices: (Description: )"
+"Command","OfficeAndAzureTools","Set-AutopilotComputernameAndGrouptag: (Description: )"
+"Command","OfficeAndAzureTools","Start-IntuneWin32Packaging: (Description: )"
+"Module","PackageManagement",""
+"Command","PackageManagement","Find-Package: (Description: Find-Package
+)"
+"Command","PackageManagement","Get-Package: (Description: Get-Package
+)"
+"Command","PackageManagement","Get-PackageProvider: (Description: Get-PackageProvider
+)"
+"Command","PackageManagement","Get-PackageSource: (Description: Get-PackageSource
+)"
+"Command","PackageManagement","Install-Package: (Description: Install-Package
+)"
+"Command","PackageManagement","Import-PackageProvider: (Description: Import-PackageProvider
+)"
+"Command","PackageManagement","Find-PackageProvider: (Description: Find-PackageProvider
+)"
+"Command","PackageManagement","Install-PackageProvider: (Description: Install-PackageProvider
+)"
+"Command","PackageManagement","Register-PackageSource: (Description: Register-PackageSource
+)"
+"Command","PackageManagement","Set-PackageSource: (Description: Set-PackageSource
+)"
+"Command","PackageManagement","Unregister-PackageSource: (Description: Unregister-PackageSource
+)"
+"Command","PackageManagement","Uninstall-Package: (Description: Uninstall-Package
+)"
+"Command","PackageManagement","Save-Package: (Description: Save-Package
+)"
+"Module","Pester",""
+"Command","Pester","Describe: (Description: )"
+"Command","Pester","Context: (Description: )"
+"Command","Pester","It: (Description: )"
+"Command","Pester","Should: (Description: )"
+"Command","Pester","Mock: (Description: )"
+"Command","Pester","Assert-MockCalled: (Description: )"
+"Command","Pester","Assert-VerifiableMocks: (Description: )"
+"Command","Pester","New-Fixture: (Description: )"
+"Command","Pester","Get-TestDriveItem: (Description: )"
+"Command","Pester","Invoke-Pester: (Description: )"
+"Command","Pester","Setup: (Description: )"
+"Command","Pester","In: (Description: )"
+"Command","Pester","InModuleScope: (Description: )"
+"Command","Pester","Invoke-Mock: (Description: )"
+"Command","Pester","BeforeEach: (Description: )"
+"Command","Pester","AfterEach: (Description: )"
+"Command","Pester","BeforeAll: (Description: )"
+"Command","Pester","AfterAll: (Description: )"
+"Command","Pester","Get-MockDynamicParameters: (Description: )"
+"Command","Pester","Set-DynamicParameterVariables: (Description: )"
+"Command","Pester","Set-TestInconclusive: (Description: )"
+"Command","Pester","SafeGetCommand: (Description: )"
+"Command","Pester","New-PesterOption: (Description: )"
+"Module","PowerShellGet",""
+"Command","PowerShellGet","Install-Module: (Description: )"
+"Command","PowerShellGet","Find-Module: (Description: )"
+"Command","PowerShellGet","Save-Module: (Description: )"
+"Command","PowerShellGet","Update-Module: (Description: )"
+"Command","PowerShellGet","Publish-Module: (Description: )"
+"Command","PowerShellGet","Get-InstalledModule: (Description: )"
+"Command","PowerShellGet","Uninstall-Module: (Description: )"
+"Command","PowerShellGet","Find-Command: (Description: )"
+"Command","PowerShellGet","Find-DscResource: (Description: )"
+"Command","PowerShellGet","Find-RoleCapability: (Description: )"
+"Command","PowerShellGet","Install-Script: (Description: )"
+"Command","PowerShellGet","Find-Script: (Description: )"
+"Command","PowerShellGet","Save-Script: (Description: )"
+"Command","PowerShellGet","Update-Script: (Description: )"
+"Command","PowerShellGet","Publish-Script: (Description: )"
+"Command","PowerShellGet","Get-InstalledScript: (Description: )"
+"Command","PowerShellGet","Uninstall-Script: (Description: )"
+"Command","PowerShellGet","Test-ScriptFileInfo: (Description: )"
+"Command","PowerShellGet","New-ScriptFileInfo: (Description: )"
+"Command","PowerShellGet","Update-ScriptFileInfo: (Description: )"
+"Command","PowerShellGet","Get-PSRepository: (Description: )"
+"Command","PowerShellGet","Set-PSRepository: (Description: )"
+"Command","PowerShellGet","Register-PSRepository: (Description: )"
+"Command","PowerShellGet","Unregister-PSRepository: (Description: )"
+"Command","PowerShellGet","Update-ModuleManifest: (Description: )"
+"Command","PowerShellGet","inmo: (Description: )"
+"Command","PowerShellGet","fimo: (Description: )"
+"Command","PowerShellGet","upmo: (Description: )"
+"Command","PowerShellGet","pumo: (Description: )"
+"Module","PSAzureFunctions",""
+"Command","PSAzureFunctions","Connect-GraphAPI: (Description: )"
+"Command","PSAzureFunctions","Find-AzureGraphAPIConnection: (Description: )"
+"Command","PSAzureFunctions","Get-EndpointManagerDevices: (Description: )"
+"Command","PSAzureFunctions","Get-EntraIDUsers: (Description: )"
+"Command","PSAzureFunctions","Get-AzureTenantSecurityScore: (Description: )"
+"Command","PSAzureFunctions","Get-AzureServicePrincipals: (Description: )"
+"Command","PSAzureFunctions","Get-AzureServicePrincipalOwner: (Description: )"
+"Command","PSAzureFunctions","Get-AzureServicePrincipalSignInActivities: (Description: )"
+"Command","PSAzureFunctions","Get-AzureApplications: (Description: )"
+"Command","PSAzureFunctions","Get-AzureApplicationOwner: (Description: )"
+"Command","PSAzureFunctions","Get-EndpointManagerDevice: (Description: )"
+"Command","PSAzureFunctions","Remove-EndpointManagerDevice: (Description: )"
+"Module","PSHelpFunctions",""
+"Command","PSHelpFunctions","IsNotNULL: (Description: )"
+"Command","PSHelpFunctions","Invoke-MultiThreads: (Description: )"
+"Command","PSHelpFunctions","Get-ValidDate: (Description: )"
+"Command","PSHelpFunctions","Get-ValueWithinString: (Description: )"
+"Command","PSHelpFunctions","IsNULL: (Description: )"
+"Command","PSHelpFunctions","Remove-SpecialCharacters: (Description: )"
+"Command","PSHelpFunctions","Convert-UTF8ToString: (Description: )"
+"Command","PSHelpFunctions","Remove-BadStringCharacters: (Description: )"
+"Module","PSLoggingFunctions",""
+"Command","PSLoggingFunctions","Invoke-TryCatchLog: (Description: )"
+"Command","PSLoggingFunctions","Write-Log: (Description: )"
+"Module","PSReadLine",""
+"Command","PSReadLine","Get-PSReadLineKeyHandler: (Description: Get-PSReadLineKeyHandler
+)"
+"Command","PSReadLine","Set-PSReadLineKeyHandler: (Description: Set-PSReadLineKeyHandler
+)"
+"Command","PSReadLine","Remove-PSReadLineKeyHandler: (Description: Remove-PSReadLineKeyHandler
+)"
+"Command","PSReadLine","Get-PSReadLineOption: (Description: Get-PSReadLineOption
+)"
+"Command","PSReadLine","Set-PSReadLineOption: (Description: Set-PSReadLineOption
+)"
+"Command","PSReadLine","PSConsoleHostReadLine: (Description: )"
+"Module","AppBackgroundTask",""
+"Command","AppBackgroundTask","Disable-AppBackgroundTaskDiagnosticLog: (Description: Disable-AppBackgroundTaskDiagnosticLog
+)"
+"Command","AppBackgroundTask","Enable-AppBackgroundTaskDiagnosticLog: (Description: Enable-AppBackgroundTaskDiagnosticLog
+)"
+"Command","AppBackgroundTask","Set-AppBackgroundTaskResourcePolicy: (Description: Set-AppBackgroundTaskResourcePolicy
+)"
+"Command","AppBackgroundTask","Unregister-AppBackgroundTask: (Description: )"
+"Command","AppBackgroundTask","Get-AppBackgroundTask: (Description: )"
+"Command","AppBackgroundTask","Start-AppBackgroundTask: (Description: )"
+"Command","AppBackgroundTask","iru: (Description: )"
+"Command","AppBackgroundTask","pfn: (Description: )"
+"Command","AppBackgroundTask","tid: (Description: )"
+"Module","AppLocker",""
+"Command","AppLocker","Get-AppLockerFileInformation: (Description: Get-AppLockerFileInformation
+)"
+"Command","AppLocker","Get-AppLockerPolicy: (Description: Get-AppLockerPolicy
+)"
+"Command","AppLocker","New-AppLockerPolicy: (Description: New-AppLockerPolicy
+)"
+"Command","AppLocker","Set-AppLockerPolicy: (Description: Set-AppLockerPolicy
+)"
+"Command","AppLocker","Test-AppLockerPolicy: (Description: Test-AppLockerPolicy
+)"
+"Module","AppvClient",""
+"Command","AppvClient","Add-AppvClientConnectionGroup: (Description: Add-AppvClientConnectionGroup
+)"
+"Command","AppvClient","Add-AppvClientPackage: (Description: Add-AppvClientPackage
+)"
+"Command","AppvClient","Add-AppvPublishingServer: (Description: Add-AppvPublishingServer
+)"
+"Command","AppvClient","Disable-Appv: (Description: Disable-Appv
+)"
+"Command","AppvClient","Disable-AppvClientConnectionGroup: (Description: Disable-AppvClientConnectionGroup
+)"
+"Command","AppvClient","Enable-Appv: (Description: Enable-Appv
+)"
+"Command","AppvClient","Enable-AppvClientConnectionGroup: (Description: Enable-AppvClientConnectionGroup
+)"
+"Command","AppvClient","Get-AppvClientConfiguration: (Description: Get-AppvClientConfiguration
+)"
+"Command","AppvClient","Get-AppvClientConnectionGroup: (Description: Get-AppvClientConnectionGroup
+)"
+"Command","AppvClient","Get-AppvClientApplication: (Description: Get-AppvClientApplication
+)"
+"Command","AppvClient","Get-AppvClientMode: (Description: Get-AppvClientMode
+)"
+"Command","AppvClient","Get-AppvClientPackage: (Description: Get-AppvClientPackage
+)"
+"Command","AppvClient","Get-AppvPublishingServer: (Description: Get-AppvPublishingServer
+)"
+"Command","AppvClient","Get-AppvStatus: (Description: Get-AppvStatus
+)"
+"Command","AppvClient","Mount-AppvClientConnectionGroup: (Description: Mount-AppvClientConnectionGroup
+)"
+"Command","AppvClient","Mount-AppvClientPackage: (Description: Mount-AppvClientPackage
+)"
+"Command","AppvClient","Publish-AppvClientPackage: (Description: Publish-AppvClientPackage
+)"
+"Command","AppvClient","Remove-AppvClientConnectionGroup: (Description: Remove-AppvClientConnectionGroup
+)"
+"Command","AppvClient","Remove-AppvClientPackage: (Description: Remove-AppvClientPackage
+)"
+"Command","AppvClient","Remove-AppvPublishingServer: (Description: Remove-AppvPublishingServer
+)"
+"Command","AppvClient","Repair-AppvClientConnectionGroup: (Description: Repair-AppvClientConnectionGroup
+)"
+"Command","AppvClient","Repair-AppvClientPackage: (Description: Repair-AppvClientPackage
+)"
+"Command","AppvClient","Send-AppvClientReport: (Description: Send-AppvClientReport
+)"
+"Command","AppvClient","Set-AppvClientConfiguration: (Description: Set-AppvClientConfiguration
+)"
+"Command","AppvClient","Set-AppvClientMode: (Description: Set-AppvClientMode
+)"
+"Command","AppvClient","Set-AppvClientPackage: (Description: Set-AppvClientPackage
+)"
+"Command","AppvClient","Set-AppvPublishingServer: (Description: Set-AppvPublishingServer
+)"
+"Command","AppvClient","Stop-AppvClientConnectionGroup: (Description: Stop-AppvClientConnectionGroup
+)"
+"Command","AppvClient","Stop-AppvClientPackage: (Description: Stop-AppvClientPackage
+)"
+"Command","AppvClient","Sync-AppvPublishingServer: (Description: Sync-AppvPublishingServer
+)"
+"Command","AppvClient","Unpublish-AppvClientPackage: (Description: Unpublish-AppvClientPackage
+)"
+"Command","AppvClient","Get-AppvVirtualProcess: (Description: )"
+"Command","AppvClient","Start-AppvVirtualProcess: (Description: )"
+"Module","Appx",""
+"Command","Appx","Add-AppxPackage: (Description: Add-AppxPackage
+)"
+"Command","Appx","Get-AppxPackage: (Description: Get-AppxPackage
+)"
+"Command","Appx","Get-AppxPackageAutoUpdateSettings: (Description: Get-AppxPackageAutoUpdateSettings
+)"
+"Command","Appx","Get-AppxPackageManifest: (Description: Get-AppxPackageManifest
+)"
+"Command","Appx","Remove-AppxPackage: (Description: Remove-AppxPackage
+)"
+"Command","Appx","Remove-AppxPackageAutoUpdateSettings: (Description: Remove-AppxPackageAutoUpdateSettings
+)"
+"Command","Appx","Reset-AppxPackage: (Description: Reset-AppxPackage
+)"
+"Command","Appx","Get-AppxVolume: (Description: Get-AppxVolume
+)"
+"Command","Appx","Add-AppxVolume: (Description: Add-AppxVolume
+)"
+"Command","Appx","Remove-AppxVolume: (Description: Remove-AppxVolume
+)"
+"Command","Appx","Mount-AppxVolume: (Description: Mount-AppxVolume
+)"
+"Command","Appx","Dismount-AppxVolume: (Description: Dismount-AppxVolume
+)"
+"Command","Appx","Move-AppxPackage: (Description: Move-AppxPackage
+)"
+"Command","Appx","Get-AppxDefaultVolume: (Description: Get-AppxDefaultVolume
+)"
+"Command","Appx","Set-AppxDefaultVolume: (Description: Set-AppxDefaultVolume
+)"
+"Command","Appx","Invoke-CommandInDesktopPackage: (Description: Invoke-CommandInDesktopPackage
+)"
+"Command","Appx","Add-AppSharedPackageContainer: (Description: Add-AppSharedPackageContainer
+)"
+"Command","Appx","Get-AppSharedPackageContainer: (Description: Get-AppSharedPackageContainer
+)"
+"Command","Appx","Remove-AppSharedPackageContainer: (Description: Remove-AppSharedPackageContainer
+)"
+"Command","Appx","Reset-AppSharedPackageContainer: (Description: Reset-AppSharedPackageContainer
+)"
+"Command","Appx","Set-AppxPackageAutoUpdateSettings: (Description: Set-AppxPackageAutoUpdateSettings
+)"
+"Command","Appx","Get-AppxLastError: (Description: )"
+"Command","Appx","Get-AppxLog: (Description: )"
+"Command","Appx","Add-AppPackage: (Description: )"
+"Command","Appx","Get-AppPackage: (Description: )"
+"Command","Appx","Get-AppPackageAutoUpdateSettings: (Description: )"
+"Command","Appx","Get-AppPackageManifest: (Description: )"
+"Command","Appx","Remove-AppPackage: (Description: )"
+"Command","Appx","Remove-AppPackageAutoUpdateSettings: (Description: )"
+"Command","Appx","Reset-AppPackage: (Description: )"
+"Command","Appx","Get-AppPackageVolume: (Description: )"
+"Command","Appx","Add-AppPackageVolume: (Description: )"
+"Command","Appx","Remove-AppPackageVolume: (Description: )"
+"Command","Appx","Mount-AppPackageVolume: (Description: )"
+"Command","Appx","Dismount-AppPackageVolume: (Description: )"
+"Command","Appx","Move-AppPackage: (Description: )"
+"Command","Appx","Get-AppPackageDefaultVolume: (Description: )"
+"Command","Appx","Set-AppPackageDefaultVolume: (Description: )"
+"Command","Appx","Get-AppPackageLastError: (Description: )"
+"Command","Appx","Get-AppPackageLog: (Description: )"
+"Command","Appx","Set-AppPackageAutoUpdateSettings: (Description: )"
+"Module","AssignedAccess",""
+"Command","AssignedAccess","Clear-AssignedAccess: (Description: )"
+"Command","AssignedAccess","Get-AssignedAccess: (Description: )"
+"Command","AssignedAccess","Set-AssignedAccess: (Description: )"
+"Module","BitLocker",""
+"Command","BitLocker","Unlock-BitLocker: (Description: )"
+"Command","BitLocker","Suspend-BitLocker: (Description: )"
+"Command","BitLocker","Resume-BitLocker: (Description: )"
+"Command","BitLocker","Remove-BitLockerKeyProtector: (Description: )"
+"Command","BitLocker","Lock-BitLocker: (Description: )"
+"Command","BitLocker","Get-BitLockerVolume: (Description: )"
+"Command","BitLocker","Enable-BitLockerAutoUnlock: (Description: )"
+"Command","BitLocker","Enable-BitLocker: (Description: )"
+"Command","BitLocker","Disable-BitLockerAutoUnlock: (Description: )"
+"Command","BitLocker","Disable-BitLocker: (Description: )"
+"Command","BitLocker","Clear-BitLockerAutoUnlock: (Description: )"
+"Command","BitLocker","Backup-BitLockerKeyProtector: (Description: )"
+"Command","BitLocker","BackupToAAD-BitLockerKeyProtector: (Description: )"
+"Command","BitLocker","Add-BitLockerKeyProtector: (Description: )"
+"Module","BitsTransfer",""
+"Command","BitsTransfer","Add-BitsFile: (Description: Add-BitsFile
+)"
+"Command","BitsTransfer","Complete-BitsTransfer: (Description: Complete-BitsTransfer
+)"
+"Command","BitsTransfer","Get-BitsTransfer: (Description: Get-BitsTransfer
+)"
+"Command","BitsTransfer","Remove-BitsTransfer: (Description: Remove-BitsTransfer
+)"
+"Command","BitsTransfer","Resume-BitsTransfer: (Description: Resume-BitsTransfer
+)"
+"Command","BitsTransfer","Set-BitsTransfer: (Description: Set-BitsTransfer
+)"
+"Command","BitsTransfer","Start-BitsTransfer: (Description: Start-BitsTransfer
+)"
+"Command","BitsTransfer","Suspend-BitsTransfer: (Description: Suspend-BitsTransfer
+)"
+"Module","BranchCache",""
+"Command","BranchCache","Add-BCDataCacheExtension: (Description: )"
+"Command","BranchCache","Clear-BCCache: (Description: )"
+"Command","BranchCache","Disable-BC: (Description: )"
+"Command","BranchCache","Disable-BCDowngrading: (Description: )"
+"Command","BranchCache","Disable-BCServeOnBattery: (Description: )"
+"Command","BranchCache","Enable-BCDistributed: (Description: )"
+"Command","BranchCache","Enable-BCDowngrading: (Description: )"
+"Command","BranchCache","Enable-BCHostedClient: (Description: )"
+"Command","BranchCache","Enable-BCHostedServer: (Description: )"
+"Command","BranchCache","Enable-BCLocal: (Description: )"
+"Command","BranchCache","Enable-BCServeOnBattery: (Description: )"
+"Command","BranchCache","Export-BCCachePackage: (Description: )"
+"Command","BranchCache","Export-BCSecretKey: (Description: )"
+"Command","BranchCache","Get-BCClientConfiguration: (Description: )"
+"Command","BranchCache","Get-BCContentServerConfiguration: (Description: )"
+"Command","BranchCache","Get-BCHostedCacheServerConfiguration: (Description: )"
+"Command","BranchCache","Get-BCNetworkConfiguration: (Description: )"
+"Command","BranchCache","Get-BCHashCache: (Description: )"
+"Command","BranchCache","Get-BCDataCache: (Description: )"
+"Command","BranchCache","Get-BCDataCacheExtension: (Description: )"
+"Command","BranchCache","Get-BCStatus: (Description: )"
+"Command","BranchCache","Import-BCCachePackage: (Description: )"
+"Command","BranchCache","Import-BCSecretKey: (Description: )"
+"Command","BranchCache","Publish-BCFileContent: (Description: )"
+"Command","BranchCache","Publish-BCWebContent: (Description: )"
+"Command","BranchCache","Remove-BCDataCacheExtension: (Description: )"
+"Command","BranchCache","Reset-BC: (Description: )"
+"Command","BranchCache","Set-BCAuthentication: (Description: )"
+"Command","BranchCache","Set-BCCache: (Description: )"
+"Command","BranchCache","Set-BCMinSMBLatency: (Description: )"
+"Command","BranchCache","Set-BCSecretKey: (Description: )"
+"Command","BranchCache","Set-BCDataCacheEntryMaxAge: (Description: )"
+"Module","CimCmdlets",""
+"Command","CimCmdlets","Get-CimAssociatedInstance: (Description: Get-CimAssociatedInstance
+)"
+"Command","CimCmdlets","Get-CimClass: (Description: Get-CimClass
+)"
+"Command","CimCmdlets","Get-CimInstance: (Description: Get-CimInstance
+)"
+"Command","CimCmdlets","Get-CimSession: (Description: Get-CimSession
+)"
+"Command","CimCmdlets","Invoke-CimMethod: (Description: Invoke-CimMethod
+)"
+"Command","CimCmdlets","New-CimInstance: (Description: New-CimInstance
+)"
+"Command","CimCmdlets","New-CimSession: (Description: New-CimSession
+)"
+"Command","CimCmdlets","New-CimSessionOption: (Description: New-CimSessionOption
+)"
+"Command","CimCmdlets","Register-CimIndicationEvent: (Description: Register-CimIndicationEvent
+)"
+"Command","CimCmdlets","Remove-CimInstance: (Description: Remove-CimInstance
+)"
+"Command","CimCmdlets","Remove-CimSession: (Description: Remove-CimSession
+)"
+"Command","CimCmdlets","Set-CimInstance: (Description: Set-CimInstance
+)"
+"Command","CimCmdlets","Export-BinaryMiLog: (Description: Export-BinaryMiLog
+)"
+"Command","CimCmdlets","Import-BinaryMiLog: (Description: Import-BinaryMiLog
+)"
+"Command","CimCmdlets","gcim: (Description: )"
+"Command","CimCmdlets","scim: (Description: )"
+"Command","CimCmdlets","ncim: (Description: )"
+"Command","CimCmdlets","rcim: (Description: )"
+"Command","CimCmdlets","icim: (Description: )"
+"Command","CimCmdlets","gcai: (Description: )"
+"Command","CimCmdlets","rcie: (Description: )"
+"Command","CimCmdlets","ncms: (Description: )"
+"Command","CimCmdlets","rcms: (Description: )"
+"Command","CimCmdlets","gcms: (Description: )"
+"Command","CimCmdlets","ncso: (Description: )"
+"Command","CimCmdlets","gcls: (Description: )"
+"Module","ConfigCI",""
+"Command","ConfigCI","Get-SystemDriver: (Description: Get-SystemDriver
+)"
+"Command","ConfigCI","New-CIPolicyRule: (Description: New-CIPolicyRule
+)"
+"Command","ConfigCI","New-CIPolicy: (Description: New-CIPolicy
+)"
+"Command","ConfigCI","Get-CIPolicy: (Description: Get-CIPolicy
+)"
+"Command","ConfigCI","Merge-CIPolicy: (Description: Merge-CIPolicy
+)"
+"Command","ConfigCI","Remove-CIPolicyRule: (Description: Remove-CIPolicyRule
+)"
+"Command","ConfigCI","Edit-CIPolicyRule: (Description: Edit-CIPolicyRule
+)"
+"Command","ConfigCI","Set-RuleOption: (Description: Set-RuleOption
+)"
+"Command","ConfigCI","Set-HVCIOptions: (Description: Set-HVCIOptions
+)"
+"Command","ConfigCI","Set-CIPolicySetting: (Description: Set-CIPolicySetting
+)"
+"Command","ConfigCI","Set-CIPolicyIdInfo: (Description: Set-CIPolicyIdInfo
+)"
+"Command","ConfigCI","Get-CIPolicyIdInfo: (Description: Get-CIPolicyIdInfo
+)"
+"Command","ConfigCI","Get-CIPolicyInfo: (Description: Get-CIPolicyInfo
+)"
+"Command","ConfigCI","Add-SignerRule: (Description: Add-SignerRule
+)"
+"Command","ConfigCI","Set-CIPolicyVersion: (Description: Set-CIPolicyVersion
+)"
+"Command","ConfigCI","ConvertFrom-CIPolicy: (Description: ConvertFrom-CIPolicy
+)"
+"Module","ConfigDefender",""
+"Command","ConfigDefender","Get-MpPreference: (Description: )"
+"Command","ConfigDefender","Set-MpPreference: (Description: )"
+"Command","ConfigDefender","Add-MpPreference: (Description: )"
+"Command","ConfigDefender","Remove-MpPreference: (Description: )"
+"Command","ConfigDefender","Get-MpComputerStatus: (Description: )"
+"Command","ConfigDefender","Get-MpThreat: (Description: )"
+"Command","ConfigDefender","Get-MpThreatCatalog: (Description: )"
+"Command","ConfigDefender","Get-MpThreatDetection: (Description: )"
+"Command","ConfigDefender","Start-MpScan: (Description: )"
+"Command","ConfigDefender","Update-MpSignature: (Description: )"
+"Command","ConfigDefender","Remove-MpThreat: (Description: )"
+"Command","ConfigDefender","Start-MpWDOScan: (Description: )"
+"Command","ConfigDefender","Start-MpRollback: (Description: )"
+"Module","ConfigDefenderPerformance",""
+"Command","ConfigDefenderPerformance","New-MpPerformanceRecording: (Description: )"
+"Command","ConfigDefenderPerformance","Get-MpPerformanceReport: (Description: )"
+"Module","Defender",""
+"Command","Defender","Get-MpPreference: (Description: )"
+"Command","Defender","Set-MpPreference: (Description: )"
+"Command","Defender","Add-MpPreference: (Description: )"
+"Command","Defender","Remove-MpPreference: (Description: )"
+"Command","Defender","Get-MpComputerStatus: (Description: )"
+"Command","Defender","Get-MpThreat: (Description: )"
+"Command","Defender","Get-MpThreatCatalog: (Description: )"
+"Command","Defender","Get-MpThreatDetection: (Description: )"
+"Command","Defender","Start-MpScan: (Description: )"
+"Command","Defender","Update-MpSignature: (Description: )"
+"Command","Defender","Remove-MpThreat: (Description: )"
+"Command","Defender","Start-MpWDOScan: (Description: )"
+"Command","Defender","Start-MpRollback: (Description: )"
+"Module","DefenderPerformance",""
+"Command","DefenderPerformance","New-MpPerformanceRecording: (Description: )"
+"Command","DefenderPerformance","Get-MpPerformanceReport: (Description: )"
+"Module","DeliveryOptimization",""
+"Command","DeliveryOptimization","Get-DeliveryOptimizationLog: (Description: Get-DeliveryOptimizationLog
+)"
+"Command","DeliveryOptimization","Get-DeliveryOptimizationLogAnalysis: (Description: Get-DeliveryOptimizationLogAnalysis
+)"
+"Command","DeliveryOptimization","Delete-DeliveryOptimizationCache: (Description: )"
+"Command","DeliveryOptimization","Disable-DeliveryOptimizationVerboseLogs: (Description: )"
+"Command","DeliveryOptimization","Enable-DeliveryOptimizationVerboseLogs: (Description: )"
+"Command","DeliveryOptimization","Get-DeliveryOptimizationStatus: (Description: )"
+"Command","DeliveryOptimization","Get-DeliveryOptimizationPerfSnap: (Description: )"
+"Command","DeliveryOptimization","Get-DeliveryOptimizationPerfSnapThisMonth: (Description: )"
+"Command","DeliveryOptimization","Get-DOConfig: (Description: )"
+"Command","DeliveryOptimization","Get-DODownloadMode: (Description: )"
+"Command","DeliveryOptimization","Get-DOPercentageMaxForegroundBandwidth: (Description: )"
+"Command","DeliveryOptimization","Get-DOPercentageMaxBackgroundBandwidth: (Description: )"
+"Command","DeliveryOptimization","Set-DeliveryOptimizationStatus: (Description: )"
+"Command","DeliveryOptimization","Set-DODownloadMode: (Description: )"
+"Command","DeliveryOptimization","Set-DOMaxBackgroundBandwidth: (Description: )"
+"Command","DeliveryOptimization","Set-DOMaxForegroundBandwidth: (Description: )"
+"Command","DeliveryOptimization","Set-DOPercentageMaxForegroundBandwidth: (Description: )"
+"Command","DeliveryOptimization","Set-DOPercentageMaxBackgroundBandwidth: (Description: )"
+"Module","DirectAccessClientComponents",""
+"Command","DirectAccessClientComponents","Disable-DAManualEntryPointSelection: (Description: )"
+"Command","DirectAccessClientComponents","Enable-DAManualEntryPointSelection: (Description: )"
+"Command","DirectAccessClientComponents","Get-DAClientExperienceConfiguration: (Description: )"
+"Command","DirectAccessClientComponents","Get-DAEntryPointTableItem: (Description: )"
+"Command","DirectAccessClientComponents","New-DAEntryPointTableItem: (Description: )"
+"Command","DirectAccessClientComponents","Remove-DAEntryPointTableItem: (Description: )"
+"Command","DirectAccessClientComponents","Rename-DAEntryPointTableItem: (Description: )"
+"Command","DirectAccessClientComponents","Reset-DAClientExperienceConfiguration: (Description: )"
+"Command","DirectAccessClientComponents","Reset-DAEntryPointTableItem: (Description: )"
+"Command","DirectAccessClientComponents","Set-DAClientExperienceConfiguration: (Description: )"
+"Command","DirectAccessClientComponents","Set-DAEntryPointTableItem: (Description: )"
+"Module","Dism",""
+"Command","Dism","Add-AppProvisionedSharedPackageContainer: (Description: Add-AppProvisionedSharedPackageContainer
+)"
+"Command","Dism","Add-AppxProvisionedPackage: (Description: Add-AppxProvisionedPackage
+)"
+"Command","Dism","Add-WindowsDriver: (Description: Add-WindowsDriver
+)"
+"Command","Dism","Add-WindowsCapability: (Description: Add-WindowsCapability
+)"
+"Command","Dism","Add-WindowsImage: (Description: Add-WindowsImage
+)"
+"Command","Dism","Add-WindowsPackage: (Description: Add-WindowsPackage
+)"
+"Command","Dism","Clear-WindowsCorruptMountPoint: (Description: Clear-WindowsCorruptMountPoint
+)"
+"Command","Dism","Disable-WindowsOptionalFeature: (Description: Disable-WindowsOptionalFeature
+)"
+"Command","Dism","Dismount-WindowsImage: (Description: Dismount-WindowsImage
+)"
+"Command","Dism","Enable-WindowsOptionalFeature: (Description: Enable-WindowsOptionalFeature
+)"
+"Command","Dism","Expand-WindowsImage: (Description: Expand-WindowsImage
+)"
+"Command","Dism","Expand-WindowsCustomDataImage: (Description: Expand-WindowsCustomDataImage
+)"
+"Command","Dism","Export-WindowsCapabilitySource: (Description: Export-WindowsCapabilitySource
+)"
+"Command","Dism","Export-WindowsDriver: (Description: Export-WindowsDriver
+)"
+"Command","Dism","Export-WindowsImage: (Description: Export-WindowsImage
+)"
+"Command","Dism","Get-AppProvisionedSharedPackageContainer: (Description: Get-AppProvisionedSharedPackageContainer
+)"
+"Command","Dism","Get-AppxProvisionedPackage: (Description: Get-AppxProvisionedPackage
+)"
+"Command","Dism","Get-NonRemovableAppsPolicy: (Description: Get-NonRemovableAppsPolicy
+)"
+"Command","Dism","Get-WIMBootEntry: (Description: Get-WIMBootEntry
+)"
+"Command","Dism","Get-WindowsDriver: (Description: Get-WindowsDriver
+)"
+"Command","Dism","Get-WindowsEdition: (Description: Get-WindowsEdition
+)"
+"Command","Dism","Get-WindowsCapability: (Description: Get-WindowsCapability
+)"
+"Command","Dism","Get-WindowsImage: (Description: Get-WindowsImage
+)"
+"Command","Dism","Get-WindowsImageContent: (Description: Get-WindowsImageContent
+)"
+"Command","Dism","Get-WindowsOptionalFeature: (Description: Get-WindowsOptionalFeature
+)"
+"Command","Dism","Get-WindowsPackage: (Description: Get-WindowsPackage
+)"
+"Command","Dism","Get-WindowsReservedStorageState: (Description: Get-WindowsReservedStorageState
+)"
+"Command","Dism","Mount-WindowsImage: (Description: Mount-WindowsImage
+)"
+"Command","Dism","New-WindowsImage: (Description: New-WindowsImage
+)"
+"Command","Dism","New-WindowsCustomImage: (Description: New-WindowsCustomImage
+)"
+"Command","Dism","Optimize-AppxProvisionedPackages: (Description: Optimize-AppxProvisionedPackages
+)"
+"Command","Dism","Optimize-WindowsImage: (Description: Optimize-WindowsImage
+)"
+"Command","Dism","Remove-AppProvisionedSharedPackageContainer: (Description: Remove-AppProvisionedSharedPackageContainer
+)"
+"Command","Dism","Remove-AppxProvisionedPackage: (Description: Remove-AppxProvisionedPackage
+)"
+"Command","Dism","Remove-WindowsDriver: (Description: Remove-WindowsDriver
+)"
+"Command","Dism","Remove-WindowsCapability: (Description: Remove-WindowsCapability
+)"
+"Command","Dism","Remove-WindowsImage: (Description: Remove-WindowsImage
+)"
+"Command","Dism","Remove-WindowsPackage: (Description: Remove-WindowsPackage
+)"
+"Command","Dism","Repair-WindowsImage: (Description: Repair-WindowsImage
+)"
+"Command","Dism","Save-SoftwareInventory: (Description: Save-SoftwareInventory
+)"
+"Command","Dism","Save-WindowsImage: (Description: Save-WindowsImage
+)"
+"Command","Dism","Set-AppXProvisionedDataFile: (Description: Set-AppXProvisionedDataFile
+)"
+"Command","Dism","Set-NonRemovableAppsPolicy: (Description: Set-NonRemovableAppsPolicy
+)"
+"Command","Dism","Set-WindowsEdition: (Description: Set-WindowsEdition
+)"
+"Command","Dism","Set-WindowsProductKey: (Description: Set-WindowsProductKey
+)"
+"Command","Dism","Set-WindowsReservedStorageState: (Description: Set-WindowsReservedStorageState
+)"
+"Command","Dism","Start-OSUninstall: (Description: Start-OSUninstall
+)"
+"Command","Dism","Split-WindowsImage: (Description: Split-WindowsImage
+)"
+"Command","Dism","Use-WindowsUnattend: (Description: Use-WindowsUnattend
+)"
+"Command","Dism","Update-WIMBootEntry: (Description: Update-WIMBootEntry
+)"
+"Command","Dism","Apply-WindowsUnattend: (Description: )"
+"Command","Dism","Add-ProvisionedAppxPackage: (Description: )"
+"Command","Dism","Remove-ProvisionedAppxPackage: (Description: )"
+"Command","Dism","Get-ProvisionedAppxPackage: (Description: )"
+"Command","Dism","Optimize-ProvisionedAppxPackages: (Description: )"
+"Command","Dism","Set-ProvisionedAppXDataFile: (Description: )"
+"Command","Dism","Add-AppProvisionedPackage: (Description: )"
+"Command","Dism","Remove-AppProvisionedPackage: (Description: )"
+"Command","Dism","Get-AppProvisionedPackage: (Description: )"
+"Command","Dism","Optimize-AppProvisionedPackages: (Description: )"
+"Command","Dism","Set-AppPackageProvisionedDataFile: (Description: )"
+"Command","Dism","Add-ProvisionedAppPackage: (Description: )"
+"Command","Dism","Remove-ProvisionedAppPackage: (Description: )"
+"Command","Dism","Get-ProvisionedAppPackage: (Description: )"
+"Command","Dism","Optimize-ProvisionedAppPackages: (Description: )"
+"Command","Dism","Set-ProvisionedAppPackageDataFile: (Description: )"
+"Command","Dism","Add-ProvisionedAppSharedPackageContainer: (Description: )"
+"Command","Dism","Get-ProvisionedAppSharedPackageContainer: (Description: )"
+"Command","Dism","Remove-ProvisionedAppSharedPackageContainer: (Description: )"
+"Module","DnsClient",""
+"Command","DnsClient","Resolve-DnsName: (Description: Resolve-DnsName
+)"
+"Command","DnsClient","Clear-DnsClientCache: (Description: )"
+"Command","DnsClient","Get-DnsClient: (Description: )"
+"Command","DnsClient","Get-DnsClientCache: (Description: )"
+"Command","DnsClient","Get-DnsClientGlobalSetting: (Description: )"
+"Command","DnsClient","Get-DnsClientServerAddress: (Description: )"
+"Command","DnsClient","Register-DnsClient: (Description: )"
+"Command","DnsClient","Set-DnsClient: (Description: )"
+"Command","DnsClient","Set-DnsClientGlobalSetting: (Description: )"
+"Command","DnsClient","Set-DnsClientServerAddress: (Description: )"
+"Command","DnsClient","Add-DnsClientNrptRule: (Description: )"
+"Command","DnsClient","Get-DnsClientNrptPolicy: (Description: )"
+"Command","DnsClient","Get-DnsClientNrptGlobal: (Description: )"
+"Command","DnsClient","Get-DnsClientNrptRule: (Description: )"
+"Command","DnsClient","Remove-DnsClientNrptRule: (Description: )"
+"Command","DnsClient","Set-DnsClientNrptGlobal: (Description: )"
+"Command","DnsClient","Set-DnsClientNrptRule: (Description: )"
+"Command","DnsClient","Add-DnsClientDohServerAddress: (Description: )"
+"Command","DnsClient","Remove-DnsClientDohServerAddress: (Description: )"
+"Command","DnsClient","Get-DnsClientDohServerAddress: (Description: )"
+"Command","DnsClient","Set-DnsClientDohServerAddress: (Description: )"
+"Module","EventTracingManagement",""
+"Command","EventTracingManagement","Start-EtwTraceSession: (Description: )"
+"Command","EventTracingManagement","New-EtwTraceSession: (Description: )"
+"Command","EventTracingManagement","Get-EtwTraceSession: (Description: )"
+"Command","EventTracingManagement","Update-EtwTraceSession: (Description: )"
+"Command","EventTracingManagement","Set-EtwTraceSession: (Description: )"
+"Command","EventTracingManagement","Send-EtwTraceSession: (Description: )"
+"Command","EventTracingManagement","Save-EtwTraceSession: (Description: )"
+"Command","EventTracingManagement","Flush-EtwTraceSession: (Description: )"
+"Command","EventTracingManagement","Stop-EtwTraceSession: (Description: )"
+"Command","EventTracingManagement","Remove-EtwTraceSession: (Description: )"
+"Command","EventTracingManagement","Add-EtwTraceProvider: (Description: )"
+"Command","EventTracingManagement","Get-EtwTraceProvider: (Description: )"
+"Command","EventTracingManagement","Set-EtwTraceProvider: (Description: )"
+"Command","EventTracingManagement","Remove-EtwTraceProvider: (Description: )"
+"Command","EventTracingManagement","New-AutologgerConfig: (Description: )"
+"Command","EventTracingManagement","Get-AutologgerConfig: (Description: )"
+"Command","EventTracingManagement","Update-AutologgerConfig: (Description: )"
+"Command","EventTracingManagement","Set-AutologgerConfig: (Description: )"
+"Command","EventTracingManagement","Start-AutologgerConfig: (Description: )"
+"Command","EventTracingManagement","Remove-AutologgerConfig: (Description: )"
+"Module","Get-NetView",""
+"Command","Get-NetView","Get-NetView: (Description: )"
+"Module","HostNetworkingService",""
+"Command","HostNetworkingService","Get-HnsNamespace: (Description: )"
+"Command","HostNetworkingService","Remove-HnsNetwork: (Description: )"
+"Command","HostNetworkingService","Remove-HnsNamespace: (Description: )"
+"Command","HostNetworkingService","Get-HnsNetwork: (Description: )"
+"Command","HostNetworkingService","Get-HnsEndpoint: (Description: )"
+"Command","HostNetworkingService","Get-HnsPolicyList: (Description: )"
+"Command","HostNetworkingService","Remove-HnsPolicyList: (Description: )"
+"Command","HostNetworkingService","Get-HnsEndpointStats: (Description: )"
+"Command","HostNetworkingService","Get-HnsEndpointAddresses: (Description: )"
+"Command","HostNetworkingService","Remove-HnsEndpoint: (Description: )"
+"Module","International",""
+"Command","International","Copy-UserInternationalSettingsToSystem: (Description: Copy-UserInternationalSettingsToSystem
+)"
+"Command","International","Get-WinDefaultInputMethodOverride: (Description: Get-WinDefaultInputMethodOverride
+)"
+"Command","International","Set-WinDefaultInputMethodOverride: (Description: Set-WinDefaultInputMethodOverride
+)"
+"Command","International","Get-WinHomeLocation: (Description: Get-WinHomeLocation
+)"
+"Command","International","Set-WinHomeLocation: (Description: Set-WinHomeLocation
+)"
+"Command","International","Get-WinLanguageBarOption: (Description: Get-WinLanguageBarOption
+)"
+"Command","International","Set-WinLanguageBarOption: (Description: Set-WinLanguageBarOption
+)"
+"Command","International","Get-WinSystemLocale: (Description: Get-WinSystemLocale
+)"
+"Command","International","Set-WinSystemLocale: (Description: Set-WinSystemLocale
+)"
+"Command","International","Get-WinUILanguageOverride: (Description: Get-WinUILanguageOverride
+)"
+"Command","International","Set-WinUILanguageOverride: (Description: Set-WinUILanguageOverride
+)"
+"Command","International","Get-WinUserLanguageList: (Description: Get-WinUserLanguageList
+)"
+"Command","International","Set-WinUserLanguageList: (Description: Set-WinUserLanguageList
+)"
+"Command","International","New-WinUserLanguageList: (Description: New-WinUserLanguageList
+)"
+"Command","International","Set-Culture: (Description: Set-Culture
+)"
+"Command","International","Get-WinAcceptLanguageFromLanguageListOptOut: (Description: Get-WinAcceptLanguageFromLanguageListOptOut
+)"
+"Command","International","Set-WinAcceptLanguageFromLanguageListOptOut: (Description: Set-WinAcceptLanguageFromLanguageListOptOut
+)"
+"Command","International","Get-WinCultureFromLanguageListOptOut: (Description: Get-WinCultureFromLanguageListOptOut
+)"
+"Command","International","Set-WinCultureFromLanguageListOptOut: (Description: Set-WinCultureFromLanguageListOptOut
+)"
+"Module","iSCSI",""
+"Command","iSCSI","Get-IscsiTargetPortal: (Description: )"
+"Command","iSCSI","New-IscsiTargetPortal: (Description: )"
+"Command","iSCSI","Remove-IscsiTargetPortal: (Description: )"
+"Command","iSCSI","Update-IscsiTargetPortal: (Description: )"
+"Command","iSCSI","Get-IscsiTarget: (Description: )"
+"Command","iSCSI","Connect-IscsiTarget: (Description: )"
+"Command","iSCSI","Disconnect-IscsiTarget: (Description: )"
+"Command","iSCSI","Update-IscsiTarget: (Description: )"
+"Command","iSCSI","Get-IscsiSession: (Description: )"
+"Command","iSCSI","Register-IscsiSession: (Description: )"
+"Command","iSCSI","Unregister-IscsiSession: (Description: )"
+"Command","iSCSI","Get-IscsiConnection: (Description: )"
+"Command","iSCSI","Set-IscsiChapSecret: (Description: )"
+"Module","ISE",""
+"Command","ISE","New-IseSnippet: (Description: )"
+"Command","ISE","Import-IseSnippet: (Description: )"
+"Command","ISE","Get-IseSnippet: (Description: )"
+"Module","Kds",""
+"Command","Kds","Add-KdsRootKey: (Description: Add-KdsRootKey
+)"
+"Command","Kds","Get-KdsRootKey: (Description: Get-KdsRootKey
+)"
+"Command","Kds","Test-KdsRootKey: (Description: Test-KdsRootKey
+)"
+"Command","Kds","Set-KdsConfiguration: (Description: Set-KdsConfiguration
+)"
+"Command","Kds","Get-KdsConfiguration: (Description: Get-KdsConfiguration
+)"
+"Command","Kds","Clear-KdsCache: (Description: Clear-KdsCache
+)"
+"Module","LanguagePackManagement",""
+"Command","LanguagePackManagement","Install-Language: (Description: Install-Language
+)"
+"Command","LanguagePackManagement","Uninstall-Language: (Description: Uninstall-Language
+)"
+"Command","LanguagePackManagement","Get-InstalledLanguage: (Description: Get-InstalledLanguage
+)"
+"Command","LanguagePackManagement","Set-SystemPreferredUILanguage: (Description: Set-SystemPreferredUILanguage
+)"
+"Command","LanguagePackManagement","Get-SystemPreferredUILanguage: (Description: Get-SystemPreferredUILanguage
+)"
+"Command","LanguagePackManagement","Get-Language: (Description: )"
+"Command","LanguagePackManagement","Get-PreferredLanguage: (Description: )"
+"Command","LanguagePackManagement","Get-SystemLanguage: (Description: )"
+"Command","LanguagePackManagement","Set-PreferredLanguage: (Description: )"
+"Command","LanguagePackManagement","Set-SystemLanguage: (Description: )"
+"Module","LAPS",""
+"Command","LAPS","Find-LapsADExtendedRights: (Description: Find-LapsADExtendedRights
+)"
+"Command","LAPS","Get-LapsADPassword: (Description: Get-LapsADPassword
+)"
+"Command","LAPS","Invoke-LapsPolicyProcessing: (Description: Invoke-LapsPolicyProcessing
+)"
+"Command","LAPS","Reset-LapsPassword: (Description: Reset-LapsPassword
+)"
+"Command","LAPS","Set-LapsADAuditing: (Description: Set-LapsADAuditing
+)"
+"Command","LAPS","Set-LapsADComputerSelfPermission: (Description: Set-LapsADComputerSelfPermission
+)"
+"Command","LAPS","Set-LapsADPasswordExpirationTime: (Description: Set-LapsADPasswordExpirationTime
+)"
+"Command","LAPS","Set-LapsADReadPasswordPermission: (Description: Set-LapsADReadPasswordPermission
+)"
+"Command","LAPS","Set-LapsADResetPasswordPermission: (Description: Set-LapsADResetPasswordPermission
+)"
+"Command","LAPS","Update-LapsADSchema: (Description: Update-LapsADSchema
+)"
+"Command","LAPS","Get-LapsAADPassword: (Description: )"
+"Command","LAPS","Get-LapsDiagnostics: (Description: )"
+"Module","Microsoft.PowerShell.Archive",""
+"Command","Microsoft.PowerShell.Archive","Compress-Archive: (Description: )"
+"Command","Microsoft.PowerShell.Archive","Expand-Archive: (Description: )"
+"Module","Microsoft.PowerShell.Diagnostics",""
+"Command","Microsoft.PowerShell.Diagnostics","Get-WinEvent: (Description: Get-WinEvent
+)"
+"Command","Microsoft.PowerShell.Diagnostics","Get-Counter: (Description: Get-Counter
+)"
+"Command","Microsoft.PowerShell.Diagnostics","Import-Counter: (Description: Import-Counter
+)"
+"Command","Microsoft.PowerShell.Diagnostics","Export-Counter: (Description: Export-Counter
+)"
+"Command","Microsoft.PowerShell.Diagnostics","New-WinEvent: (Description: New-WinEvent
+)"
+"Module","Microsoft.PowerShell.Host",""
+"Command","Microsoft.PowerShell.Host","Start-Transcript: (Description: Start-Transcript
+)"
+"Command","Microsoft.PowerShell.Host","Stop-Transcript: (Description: Stop-Transcript
+)"
+"Module","Microsoft.PowerShell.LocalAccounts",""
+"Command","Microsoft.PowerShell.LocalAccounts","Add-LocalGroupMember: (Description: Add-LocalGroupMember
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Disable-LocalUser: (Description: Disable-LocalUser
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Enable-LocalUser: (Description: Enable-LocalUser
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Get-LocalGroup: (Description: Get-LocalGroup
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Get-LocalGroupMember: (Description: Get-LocalGroupMember
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Get-LocalUser: (Description: Get-LocalUser
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","New-LocalGroup: (Description: New-LocalGroup
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","New-LocalUser: (Description: New-LocalUser
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Remove-LocalGroup: (Description: Remove-LocalGroup
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Remove-LocalGroupMember: (Description: Remove-LocalGroupMember
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Remove-LocalUser: (Description: Remove-LocalUser
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Rename-LocalGroup: (Description: Rename-LocalGroup
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Rename-LocalUser: (Description: Rename-LocalUser
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Set-LocalGroup: (Description: Set-LocalGroup
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","Set-LocalUser: (Description: Set-LocalUser
+)"
+"Command","Microsoft.PowerShell.LocalAccounts","algm: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","dlu: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","elu: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","glg: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","glgm: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","glu: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","nlg: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","nlu: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","rlg: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","rlgm: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","rlu: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","rnlg: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","rnlu: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","slg: (Description: )"
+"Command","Microsoft.PowerShell.LocalAccounts","slu: (Description: )"
+"Module","Microsoft.PowerShell.Management",""
+"Command","Microsoft.PowerShell.Management","Add-Content: (Description: Add-Content
+)"
+"Command","Microsoft.PowerShell.Management","Clear-Content: (Description: Clear-Content
+)"
+"Command","Microsoft.PowerShell.Management","Clear-ItemProperty: (Description: Clear-ItemProperty
+)"
+"Command","Microsoft.PowerShell.Management","Join-Path: (Description: Join-Path
+)"
+"Command","Microsoft.PowerShell.Management","Convert-Path: (Description: Convert-Path
+)"
+"Command","Microsoft.PowerShell.Management","Copy-ItemProperty: (Description: Copy-ItemProperty
+)"
+"Command","Microsoft.PowerShell.Management","Get-EventLog: (Description: Get-EventLog
+)"
+"Command","Microsoft.PowerShell.Management","Clear-EventLog: (Description: Clear-EventLog
+)"
+"Command","Microsoft.PowerShell.Management","Write-EventLog: (Description: Write-EventLog
+)"
+"Command","Microsoft.PowerShell.Management","Limit-EventLog: (Description: Limit-EventLog
+)"
+"Command","Microsoft.PowerShell.Management","Show-EventLog: (Description: Show-EventLog
+)"
+"Command","Microsoft.PowerShell.Management","New-EventLog: (Description: New-EventLog
+)"
+"Command","Microsoft.PowerShell.Management","Remove-EventLog: (Description: Remove-EventLog
+)"
+"Command","Microsoft.PowerShell.Management","Get-ChildItem: (Description: Get-ChildItem
+)"
+"Command","Microsoft.PowerShell.Management","Get-Content: (Description: Get-Content
+)"
+"Command","Microsoft.PowerShell.Management","Get-ItemProperty: (Description: Get-ItemProperty
+)"
+"Command","Microsoft.PowerShell.Management","Get-ItemPropertyValue: (Description: Get-ItemPropertyValue
+)"
+"Command","Microsoft.PowerShell.Management","Get-WmiObject: (Description: Get-WmiObject
+)"
+"Command","Microsoft.PowerShell.Management","Invoke-WmiMethod: (Description: Invoke-WmiMethod
+)"
+"Command","Microsoft.PowerShell.Management","Move-ItemProperty: (Description: Move-ItemProperty
+)"
+"Command","Microsoft.PowerShell.Management","Get-Location: (Description: Get-Location
+)"
+"Command","Microsoft.PowerShell.Management","Set-Location: (Description: Set-Location
+)"
+"Command","Microsoft.PowerShell.Management","Push-Location: (Description: Push-Location
+)"
+"Command","Microsoft.PowerShell.Management","Pop-Location: (Description: Pop-Location
+)"
+"Command","Microsoft.PowerShell.Management","New-PSDrive: (Description: New-PSDrive
+)"
+"Command","Microsoft.PowerShell.Management","Remove-PSDrive: (Description: Remove-PSDrive
+)"
+"Command","Microsoft.PowerShell.Management","Get-PSDrive: (Description: Get-PSDrive
+)"
+"Command","Microsoft.PowerShell.Management","Get-Item: (Description: Get-Item
+)"
+"Command","Microsoft.PowerShell.Management","New-Item: (Description: New-Item
+)"
+"Command","Microsoft.PowerShell.Management","Set-Item: (Description: Set-Item
+)"
+"Command","Microsoft.PowerShell.Management","Remove-Item: (Description: Remove-Item
+)"
+"Command","Microsoft.PowerShell.Management","Move-Item: (Description: Move-Item
+)"
+"Command","Microsoft.PowerShell.Management","Rename-Item: (Description: Rename-Item
+)"
+"Command","Microsoft.PowerShell.Management","Copy-Item: (Description: Copy-Item
+)"
+"Command","Microsoft.PowerShell.Management","Clear-Item: (Description: Clear-Item
+)"
+"Command","Microsoft.PowerShell.Management","Invoke-Item: (Description: Invoke-Item
+)"
+"Command","Microsoft.PowerShell.Management","Get-PSProvider: (Description: Get-PSProvider
+)"
+"Command","Microsoft.PowerShell.Management","New-ItemProperty: (Description: New-ItemProperty
+)"
+"Command","Microsoft.PowerShell.Management","Split-Path: (Description: Split-Path
+)"
+"Command","Microsoft.PowerShell.Management","Test-Path: (Description: Test-Path
+)"
+"Command","Microsoft.PowerShell.Management","Get-Process: (Description: Get-Process
+)"
+"Command","Microsoft.PowerShell.Management","Stop-Process: (Description: Stop-Process
+)"
+"Command","Microsoft.PowerShell.Management","Wait-Process: (Description: Wait-Process
+)"
+"Command","Microsoft.PowerShell.Management","Debug-Process: (Description: Debug-Process
+)"
+"Command","Microsoft.PowerShell.Management","Start-Process: (Description: Start-Process
+)"
+"Command","Microsoft.PowerShell.Management","Remove-ItemProperty: (Description: Remove-ItemProperty
+)"
+"Command","Microsoft.PowerShell.Management","Remove-WmiObject: (Description: Remove-WmiObject
+)"
+"Command","Microsoft.PowerShell.Management","Rename-ItemProperty: (Description: Rename-ItemProperty
+)"
+"Command","Microsoft.PowerShell.Management","Register-WmiEvent: (Description: Register-WmiEvent
+)"
+"Command","Microsoft.PowerShell.Management","Resolve-Path: (Description: Resolve-Path
+)"
+"Command","Microsoft.PowerShell.Management","Get-Service: (Description: Get-Service
+)"
+"Command","Microsoft.PowerShell.Management","Stop-Service: (Description: Stop-Service
+)"
+"Command","Microsoft.PowerShell.Management","Start-Service: (Description: Start-Service
+)"
+"Command","Microsoft.PowerShell.Management","Suspend-Service: (Description: Suspend-Service
+)"
+"Command","Microsoft.PowerShell.Management","Resume-Service: (Description: Resume-Service
+)"
+"Command","Microsoft.PowerShell.Management","Restart-Service: (Description: Restart-Service
+)"
+"Command","Microsoft.PowerShell.Management","Set-Service: (Description: Set-Service
+)"
+"Command","Microsoft.PowerShell.Management","New-Service: (Description: New-Service
+)"
+"Command","Microsoft.PowerShell.Management","Set-Content: (Description: Set-Content
+)"
+"Command","Microsoft.PowerShell.Management","Set-ItemProperty: (Description: Set-ItemProperty
+)"
+"Command","Microsoft.PowerShell.Management","Set-WmiInstance: (Description: Set-WmiInstance
+)"
+"Command","Microsoft.PowerShell.Management","Get-Transaction: (Description: Get-Transaction
+)"
+"Command","Microsoft.PowerShell.Management","Start-Transaction: (Description: Start-Transaction
+)"
+"Command","Microsoft.PowerShell.Management","Complete-Transaction: (Description: Complete-Transaction
+)"
+"Command","Microsoft.PowerShell.Management","Undo-Transaction: (Description: Undo-Transaction
+)"
+"Command","Microsoft.PowerShell.Management","Use-Transaction: (Description: Use-Transaction
+)"
+"Command","Microsoft.PowerShell.Management","New-WebServiceProxy: (Description: New-WebServiceProxy
+)"
+"Command","Microsoft.PowerShell.Management","Get-HotFix: (Description: Get-HotFix
+)"
+"Command","Microsoft.PowerShell.Management","Test-Connection: (Description: Test-Connection
+)"
+"Command","Microsoft.PowerShell.Management","Enable-ComputerRestore: (Description: Enable-ComputerRestore
+)"
+"Command","Microsoft.PowerShell.Management","Disable-ComputerRestore: (Description: Disable-ComputerRestore
+)"
+"Command","Microsoft.PowerShell.Management","Checkpoint-Computer: (Description: Checkpoint-Computer
+)"
+"Command","Microsoft.PowerShell.Management","Get-ComputerRestorePoint: (Description: Get-ComputerRestorePoint
+)"
+"Command","Microsoft.PowerShell.Management","Restart-Computer: (Description: Restart-Computer
+)"
+"Command","Microsoft.PowerShell.Management","Stop-Computer: (Description: Stop-Computer
+)"
+"Command","Microsoft.PowerShell.Management","Restore-Computer: (Description: Restore-Computer
+)"
+"Command","Microsoft.PowerShell.Management","Add-Computer: (Description: Add-Computer
+)"
+"Command","Microsoft.PowerShell.Management","Remove-Computer: (Description: Remove-Computer
+)"
+"Command","Microsoft.PowerShell.Management","Test-ComputerSecureChannel: (Description: Test-ComputerSecureChannel
+)"
+"Command","Microsoft.PowerShell.Management","Reset-ComputerMachinePassword: (Description: Reset-ComputerMachinePassword
+)"
+"Command","Microsoft.PowerShell.Management","Rename-Computer: (Description: Rename-Computer
+)"
+"Command","Microsoft.PowerShell.Management","Get-ControlPanelItem: (Description: Get-ControlPanelItem
+)"
+"Command","Microsoft.PowerShell.Management","Show-ControlPanelItem: (Description: Show-ControlPanelItem
+)"
+"Command","Microsoft.PowerShell.Management","Clear-Recyclebin: (Description: Clear-Recyclebin
+)"
+"Command","Microsoft.PowerShell.Management","Get-Clipboard: (Description: Get-Clipboard
+)"
+"Command","Microsoft.PowerShell.Management","Set-Clipboard: (Description: Set-Clipboard
+)"
+"Command","Microsoft.PowerShell.Management","Get-ComputerInfo: (Description: Get-ComputerInfo
+)"
+"Command","Microsoft.PowerShell.Management","Get-TimeZone: (Description: Get-TimeZone
+)"
+"Command","Microsoft.PowerShell.Management","Set-TimeZone: (Description: Set-TimeZone
+)"
+"Command","Microsoft.PowerShell.Management","gcb: (Description: )"
+"Command","Microsoft.PowerShell.Management","scb: (Description: )"
+"Command","Microsoft.PowerShell.Management","gin: (Description: )"
+"Command","Microsoft.PowerShell.Management","gtz: (Description: )"
+"Command","Microsoft.PowerShell.Management","stz: (Description: )"
+"Module","Microsoft.PowerShell.ODataUtils",""
+"Command","Microsoft.PowerShell.ODataUtils","Export-ODataEndpointProxy: (Description: )"
+"Module","Microsoft.PowerShell.Security",""
+"Command","Microsoft.PowerShell.Security","Get-Acl: (Description: Get-Acl
+)"
+"Command","Microsoft.PowerShell.Security","Set-Acl: (Description: Set-Acl
+)"
+"Command","Microsoft.PowerShell.Security","Get-PfxCertificate: (Description: Get-PfxCertificate
+)"
+"Command","Microsoft.PowerShell.Security","Get-Credential: (Description: Get-Credential
+)"
+"Command","Microsoft.PowerShell.Security","Get-ExecutionPolicy: (Description: Get-ExecutionPolicy
+)"
+"Command","Microsoft.PowerShell.Security","Set-ExecutionPolicy: (Description: Set-ExecutionPolicy
+)"
+"Command","Microsoft.PowerShell.Security","Get-AuthenticodeSignature: (Description: Get-AuthenticodeSignature
+)"
+"Command","Microsoft.PowerShell.Security","Set-AuthenticodeSignature: (Description: Set-AuthenticodeSignature
+)"
+"Command","Microsoft.PowerShell.Security","ConvertFrom-SecureString: (Description: ConvertFrom-SecureString
+)"
+"Command","Microsoft.PowerShell.Security","ConvertTo-SecureString: (Description: ConvertTo-SecureString
+)"
+"Command","Microsoft.PowerShell.Security","Get-CmsMessage: (Description: Get-CmsMessage
+)"
+"Command","Microsoft.PowerShell.Security","Unprotect-CmsMessage: (Description: Unprotect-CmsMessage
+)"
+"Command","Microsoft.PowerShell.Security","Protect-CmsMessage: (Description: Protect-CmsMessage
+)"
+"Command","Microsoft.PowerShell.Security","New-FileCatalog: (Description: New-FileCatalog
+)"
+"Command","Microsoft.PowerShell.Security","Test-FileCatalog: (Description: Test-FileCatalog
+)"
+"Module","Microsoft.PowerShell.Utility",""
+"Command","Microsoft.PowerShell.Utility","Format-List: (Description: Format-List
+)"
+"Command","Microsoft.PowerShell.Utility","Format-Custom: (Description: Format-Custom
+)"
+"Command","Microsoft.PowerShell.Utility","Format-Table: (Description: Format-Table
+)"
+"Command","Microsoft.PowerShell.Utility","Format-Wide: (Description: Format-Wide
+)"
+"Command","Microsoft.PowerShell.Utility","Out-File: (Description: Out-File
+)"
+"Command","Microsoft.PowerShell.Utility","Out-Printer: (Description: Out-Printer
+)"
+"Command","Microsoft.PowerShell.Utility","Out-String: (Description: Out-String
+)"
+"Command","Microsoft.PowerShell.Utility","Out-GridView: (Description: Out-GridView
+)"
+"Command","Microsoft.PowerShell.Utility","Get-FormatData: (Description: Get-FormatData
+)"
+"Command","Microsoft.PowerShell.Utility","Export-FormatData: (Description: Export-FormatData
+)"
+"Command","Microsoft.PowerShell.Utility","ConvertFrom-Json: (Description: ConvertFrom-Json
+)"
+"Command","Microsoft.PowerShell.Utility","ConvertTo-Json: (Description: ConvertTo-Json
+)"
+"Command","Microsoft.PowerShell.Utility","Invoke-RestMethod: (Description: Invoke-RestMethod
+)"
+"Command","Microsoft.PowerShell.Utility","Invoke-WebRequest: (Description: Invoke-WebRequest
+)"
+"Command","Microsoft.PowerShell.Utility","Register-ObjectEvent: (Description: Register-ObjectEvent
+)"
+"Command","Microsoft.PowerShell.Utility","Register-EngineEvent: (Description: Register-EngineEvent
+)"
+"Command","Microsoft.PowerShell.Utility","Wait-Event: (Description: Wait-Event
+)"
+"Command","Microsoft.PowerShell.Utility","Get-Event: (Description: Get-Event
+)"
+"Command","Microsoft.PowerShell.Utility","Remove-Event: (Description: Remove-Event
+)"
+"Command","Microsoft.PowerShell.Utility","Get-EventSubscriber: (Description: Get-EventSubscriber
+)"
+"Command","Microsoft.PowerShell.Utility","Unregister-Event: (Description: Unregister-Event
+)"
+"Command","Microsoft.PowerShell.Utility","New-Event: (Description: New-Event
+)"
+"Command","Microsoft.PowerShell.Utility","Add-Member: (Description: Add-Member
+)"
+"Command","Microsoft.PowerShell.Utility","Add-Type: (Description: Add-Type
+)"
+"Command","Microsoft.PowerShell.Utility","Compare-Object: (Description: Compare-Object
+)"
+"Command","Microsoft.PowerShell.Utility","ConvertTo-Html: (Description: ConvertTo-Html
+)"
+"Command","Microsoft.PowerShell.Utility","ConvertFrom-StringData: (Description: ConvertFrom-StringData
+)"
+"Command","Microsoft.PowerShell.Utility","Export-Csv: (Description: Export-Csv
+)"
+"Command","Microsoft.PowerShell.Utility","Import-Csv: (Description: Import-Csv
+)"
+"Command","Microsoft.PowerShell.Utility","ConvertTo-Csv: (Description: ConvertTo-Csv
+)"
+"Command","Microsoft.PowerShell.Utility","ConvertFrom-Csv: (Description: ConvertFrom-Csv
+)"
+"Command","Microsoft.PowerShell.Utility","Export-Alias: (Description: Export-Alias
+)"
+"Command","Microsoft.PowerShell.Utility","Invoke-Expression: (Description: Invoke-Expression
+)"
+"Command","Microsoft.PowerShell.Utility","Get-Alias: (Description: Get-Alias
+)"
+"Command","Microsoft.PowerShell.Utility","Get-Culture: (Description: Get-Culture
+)"
+"Command","Microsoft.PowerShell.Utility","Get-Date: (Description: Get-Date
+)"
+"Command","Microsoft.PowerShell.Utility","Get-Host: (Description: Get-Host
+)"
+"Command","Microsoft.PowerShell.Utility","Get-Member: (Description: Get-Member
+)"
+"Command","Microsoft.PowerShell.Utility","Get-Random: (Description: Get-Random
+)"
+"Command","Microsoft.PowerShell.Utility","Get-UICulture: (Description: Get-UICulture
+)"
+"Command","Microsoft.PowerShell.Utility","Get-Unique: (Description: Get-Unique
+)"
+"Command","Microsoft.PowerShell.Utility","Export-PSSession: (Description: Export-PSSession
+)"
+"Command","Microsoft.PowerShell.Utility","Import-PSSession: (Description: Import-PSSession
+)"
+"Command","Microsoft.PowerShell.Utility","Import-Alias: (Description: Import-Alias
+)"
+"Command","Microsoft.PowerShell.Utility","Import-LocalizedData: (Description: Import-LocalizedData
+)"
+"Command","Microsoft.PowerShell.Utility","Select-String: (Description: Select-String
+)"
+"Command","Microsoft.PowerShell.Utility","Measure-Object: (Description: Measure-Object
+)"
+"Command","Microsoft.PowerShell.Utility","New-Alias: (Description: New-Alias
+)"
+"Command","Microsoft.PowerShell.Utility","New-TimeSpan: (Description: New-TimeSpan
+)"
+"Command","Microsoft.PowerShell.Utility","Read-Host: (Description: Read-Host
+)"
+"Command","Microsoft.PowerShell.Utility","Set-Alias: (Description: Set-Alias
+)"
+"Command","Microsoft.PowerShell.Utility","Set-Date: (Description: Set-Date
+)"
+"Command","Microsoft.PowerShell.Utility","Start-Sleep: (Description: Start-Sleep
+)"
+"Command","Microsoft.PowerShell.Utility","Tee-Object: (Description: Tee-Object
+)"
+"Command","Microsoft.PowerShell.Utility","Measure-Command: (Description: Measure-Command
+)"
+"Command","Microsoft.PowerShell.Utility","Update-List: (Description: Update-List
+)"
+"Command","Microsoft.PowerShell.Utility","Update-TypeData: (Description: Update-TypeData
+)"
+"Command","Microsoft.PowerShell.Utility","Update-FormatData: (Description: Update-FormatData
+)"
+"Command","Microsoft.PowerShell.Utility","Remove-TypeData: (Description: Remove-TypeData
+)"
+"Command","Microsoft.PowerShell.Utility","Get-TypeData: (Description: Get-TypeData
+)"
+"Command","Microsoft.PowerShell.Utility","Write-Host: (Description: Write-Host
+)"
+"Command","Microsoft.PowerShell.Utility","Write-Progress: (Description: Write-Progress
+)"
+"Command","Microsoft.PowerShell.Utility","New-Object: (Description: New-Object
+)"
+"Command","Microsoft.PowerShell.Utility","Select-Object: (Description: Select-Object
+)"
+"Command","Microsoft.PowerShell.Utility","Group-Object: (Description: Group-Object
+)"
+"Command","Microsoft.PowerShell.Utility","Sort-Object: (Description: Sort-Object
+)"
+"Command","Microsoft.PowerShell.Utility","Get-Variable: (Description: Get-Variable
+)"
+"Command","Microsoft.PowerShell.Utility","New-Variable: (Description: New-Variable
+)"
+"Command","Microsoft.PowerShell.Utility","Set-Variable: (Description: Set-Variable
+)"
+"Command","Microsoft.PowerShell.Utility","Remove-Variable: (Description: Remove-Variable
+)"
+"Command","Microsoft.PowerShell.Utility","Clear-Variable: (Description: Clear-Variable
+)"
+"Command","Microsoft.PowerShell.Utility","Export-Clixml: (Description: Export-Clixml
+)"
+"Command","Microsoft.PowerShell.Utility","Import-Clixml: (Description: Import-Clixml
+)"
+"Command","Microsoft.PowerShell.Utility","ConvertTo-Xml: (Description: ConvertTo-Xml
+)"
+"Command","Microsoft.PowerShell.Utility","Select-Xml: (Description: Select-Xml
+)"
+"Command","Microsoft.PowerShell.Utility","Write-Debug: (Description: Write-Debug
+)"
+"Command","Microsoft.PowerShell.Utility","Write-Verbose: (Description: Write-Verbose
+)"
+"Command","Microsoft.PowerShell.Utility","Write-Warning: (Description: Write-Warning
+)"
+"Command","Microsoft.PowerShell.Utility","Write-Error: (Description: Write-Error
+)"
+"Command","Microsoft.PowerShell.Utility","Write-Information: (Description: Write-Information
+)"
+"Command","Microsoft.PowerShell.Utility","Write-Output: (Description: Write-Output
+)"
+"Command","Microsoft.PowerShell.Utility","Set-PSBreakpoint: (Description: Set-PSBreakpoint
+)"
+"Command","Microsoft.PowerShell.Utility","Get-PSBreakpoint: (Description: Get-PSBreakpoint
+)"
+"Command","Microsoft.PowerShell.Utility","Remove-PSBreakpoint: (Description: Remove-PSBreakpoint
+)"
+"Command","Microsoft.PowerShell.Utility","Enable-PSBreakpoint: (Description: Enable-PSBreakpoint
+)"
+"Command","Microsoft.PowerShell.Utility","Disable-PSBreakpoint: (Description: Disable-PSBreakpoint
+)"
+"Command","Microsoft.PowerShell.Utility","Get-PSCallStack: (Description: Get-PSCallStack
+)"
+"Command","Microsoft.PowerShell.Utility","Send-MailMessage: (Description: Send-MailMessage
+)"
+"Command","Microsoft.PowerShell.Utility","Get-TraceSource: (Description: Get-TraceSource
+)"
+"Command","Microsoft.PowerShell.Utility","Set-TraceSource: (Description: Set-TraceSource
+)"
+"Command","Microsoft.PowerShell.Utility","Trace-Command: (Description: Trace-Command
+)"
+"Command","Microsoft.PowerShell.Utility","Show-Command: (Description: Show-Command
+)"
+"Command","Microsoft.PowerShell.Utility","Unblock-File: (Description: Unblock-File
+)"
+"Command","Microsoft.PowerShell.Utility","Get-Runspace: (Description: Get-Runspace
+)"
+"Command","Microsoft.PowerShell.Utility","Debug-Runspace: (Description: Debug-Runspace
+)"
+"Command","Microsoft.PowerShell.Utility","Enable-RunspaceDebug: (Description: Enable-RunspaceDebug
+)"
+"Command","Microsoft.PowerShell.Utility","Disable-RunspaceDebug: (Description: Disable-RunspaceDebug
+)"
+"Command","Microsoft.PowerShell.Utility","Get-RunspaceDebug: (Description: Get-RunspaceDebug
+)"
+"Command","Microsoft.PowerShell.Utility","Wait-Debugger: (Description: Wait-Debugger
+)"
+"Command","Microsoft.PowerShell.Utility","ConvertFrom-String: (Description: ConvertFrom-String
+)"
+"Command","Microsoft.PowerShell.Utility","Convert-String: (Description: Convert-String
+)"
+"Command","Microsoft.PowerShell.Utility","Get-FileHash: (Description: )"
+"Command","Microsoft.PowerShell.Utility","New-TemporaryFile: (Description: )"
+"Command","Microsoft.PowerShell.Utility","New-Guid: (Description: )"
+"Command","Microsoft.PowerShell.Utility","Format-Hex: (Description: )"
+"Command","Microsoft.PowerShell.Utility","Import-PowerShellDataFile: (Description: )"
+"Command","Microsoft.PowerShell.Utility","ConvertFrom-SddlString: (Description: )"
+"Command","Microsoft.PowerShell.Utility","CFS: (Description: )"
+"Command","Microsoft.PowerShell.Utility","fhx: (Description: )"
+"Module","Microsoft.Windows.Bcd.Cmdlets",""
+"Command","Microsoft.Windows.Bcd.Cmdlets","Copy-BcdEntry: (Description: Copy-BcdEntry
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Disable-BcdElementBootDebug: (Description: Disable-BcdElementBootDebug
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Disable-BcdElementBootEms: (Description: Disable-BcdElementBootEms
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Disable-BcdElementDebug: (Description: Disable-BcdElementDebug
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Disable-BcdElementEms: (Description: Disable-BcdElementEms
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Disable-BcdElementEventLogging: (Description: Disable-BcdElementEventLogging
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Disable-BcdElementHypervisorDebug: (Description: Disable-BcdElementHypervisorDebug
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Enable-BcdElementBootDebug: (Description: Enable-BcdElementBootDebug
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Enable-BcdElementBootEms: (Description: Enable-BcdElementBootEms
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Enable-BcdElementDebug: (Description: Enable-BcdElementDebug
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Enable-BcdElementEms: (Description: Enable-BcdElementEms
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Enable-BcdElementEventLogging: (Description: Enable-BcdElementEventLogging
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Enable-BcdElementHypervisorDebug: (Description: Enable-BcdElementHypervisorDebug
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Export-BcdStore: (Description: Export-BcdStore
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Get-BcdEntry: (Description: Get-BcdEntry
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Get-BcdEntryDebugSettings: (Description: Get-BcdEntryDebugSettings
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Get-BcdEntryHypervisorSettings: (Description: Get-BcdEntryHypervisorSettings
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Get-BcdStore: (Description: Get-BcdStore
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Import-BcdStore: (Description: Import-BcdStore
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","New-BcdEntry: (Description: New-BcdEntry
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","New-BcdStore: (Description: New-BcdStore
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Remove-BcdElement: (Description: Remove-BcdElement
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Remove-BcdEntry: (Description: Remove-BcdEntry
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Set-BcdBootDefault: (Description: Set-BcdBootDefault
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Set-BcdBootDisplayOrder: (Description: Set-BcdBootDisplayOrder
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Set-BcdBootSequence: (Description: Set-BcdBootSequence
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Set-BcdBootTimeout: (Description: Set-BcdBootTimeout
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Set-BcdBootToolsDisplayOrder: (Description: Set-BcdBootToolsDisplayOrder
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Set-BcdDebugSettings: (Description: Set-BcdDebugSettings
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Set-BcdElement: (Description: Set-BcdElement
+)"
+"Command","Microsoft.Windows.Bcd.Cmdlets","Set-BcdHypervisorSettings: (Description: Set-BcdHypervisorSettings
+)"
+"Module","Microsoft.WSMan.Management",""
+"Command","Microsoft.WSMan.Management","Disable-WSManCredSSP: (Description: Disable-WSManCredSSP
+)"
+"Command","Microsoft.WSMan.Management","Enable-WSManCredSSP: (Description: Enable-WSManCredSSP
+)"
+"Command","Microsoft.WSMan.Management","Get-WSManCredSSP: (Description: Get-WSManCredSSP
+)"
+"Command","Microsoft.WSMan.Management","Set-WSManQuickConfig: (Description: Set-WSManQuickConfig
+)"
+"Command","Microsoft.WSMan.Management","Test-WSMan: (Description: Test-WSMan
+)"
+"Command","Microsoft.WSMan.Management","Invoke-WSManAction: (Description: Invoke-WSManAction
+)"
+"Command","Microsoft.WSMan.Management","Connect-WSMan: (Description: Connect-WSMan
+)"
+"Command","Microsoft.WSMan.Management","Disconnect-WSMan: (Description: Disconnect-WSMan
+)"
+"Command","Microsoft.WSMan.Management","Get-WSManInstance: (Description: Get-WSManInstance
+)"
+"Command","Microsoft.WSMan.Management","Set-WSManInstance: (Description: Set-WSManInstance
+)"
+"Command","Microsoft.WSMan.Management","Remove-WSManInstance: (Description: Remove-WSManInstance
+)"
+"Command","Microsoft.WSMan.Management","New-WSManInstance: (Description: New-WSManInstance
+)"
+"Command","Microsoft.WSMan.Management","New-WSManSessionOption: (Description: New-WSManSessionOption
+)"
+"Module","MMAgent",""
+"Command","MMAgent","Disable-MMAgent: (Description: )"
+"Command","MMAgent","Enable-MMAgent: (Description: )"
+"Command","MMAgent","Set-MMAgent: (Description: )"
+"Command","MMAgent","Get-MMAgent: (Description: )"
+"Command","MMAgent","Debug-MMAppPrelaunch: (Description: )"
+"Module","MsDtc",""
+"Command","MsDtc","New-DtcDiagnosticTransaction: (Description: New-DtcDiagnosticTransaction
+)"
+"Command","MsDtc","Complete-DtcDiagnosticTransaction: (Description: Complete-DtcDiagnosticTransaction
+)"
+"Command","MsDtc","Join-DtcDiagnosticResourceManager: (Description: Join-DtcDiagnosticResourceManager
+)"
+"Command","MsDtc","Receive-DtcDiagnosticTransaction: (Description: Receive-DtcDiagnosticTransaction
+)"
+"Command","MsDtc","Send-DtcDiagnosticTransaction: (Description: Send-DtcDiagnosticTransaction
+)"
+"Command","MsDtc","Start-DtcDiagnosticResourceManager: (Description: Start-DtcDiagnosticResourceManager
+)"
+"Command","MsDtc","Stop-DtcDiagnosticResourceManager: (Description: Stop-DtcDiagnosticResourceManager
+)"
+"Command","MsDtc","Undo-DtcDiagnosticTransaction: (Description: Undo-DtcDiagnosticTransaction
+)"
+"Command","MsDtc","Add-DtcClusterTMMapping: (Description: )"
+"Command","MsDtc","Get-Dtc: (Description: )"
+"Command","MsDtc","Get-DtcAdvancedHostSetting: (Description: )"
+"Command","MsDtc","Get-DtcAdvancedSetting: (Description: )"
+"Command","MsDtc","Get-DtcClusterDefault: (Description: )"
+"Command","MsDtc","Get-DtcClusterTMMapping: (Description: )"
+"Command","MsDtc","Get-DtcDefault: (Description: )"
+"Command","MsDtc","Get-DtcLog: (Description: )"
+"Command","MsDtc","Get-DtcNetworkSetting: (Description: )"
+"Command","MsDtc","Get-DtcTransaction: (Description: )"
+"Command","MsDtc","Get-DtcTransactionsStatistics: (Description: )"
+"Command","MsDtc","Get-DtcTransactionsTraceSession: (Description: )"
+"Command","MsDtc","Get-DtcTransactionsTraceSetting: (Description: )"
+"Command","MsDtc","Install-Dtc: (Description: )"
+"Command","MsDtc","Remove-DtcClusterTMMapping: (Description: )"
+"Command","MsDtc","Reset-DtcLog: (Description: )"
+"Command","MsDtc","Set-DtcAdvancedHostSetting: (Description: )"
+"Command","MsDtc","Set-DtcAdvancedSetting: (Description: )"
+"Command","MsDtc","Set-DtcClusterDefault: (Description: )"
+"Command","MsDtc","Set-DtcClusterTMMapping: (Description: )"
+"Command","MsDtc","Set-DtcDefault: (Description: )"
+"Command","MsDtc","Set-DtcLog: (Description: )"
+"Command","MsDtc","Set-DtcNetworkSetting: (Description: )"
+"Command","MsDtc","Set-DtcTransaction: (Description: )"
+"Command","MsDtc","Set-DtcTransactionsTraceSession: (Description: )"
+"Command","MsDtc","Set-DtcTransactionsTraceSetting: (Description: )"
+"Command","MsDtc","Start-Dtc: (Description: )"
+"Command","MsDtc","Start-DtcTransactionsTraceSession: (Description: )"
+"Command","MsDtc","Stop-Dtc: (Description: )"
+"Command","MsDtc","Stop-DtcTransactionsTraceSession: (Description: )"
+"Command","MsDtc","Test-Dtc: (Description: )"
+"Command","MsDtc","Uninstall-Dtc: (Description: )"
+"Command","MsDtc","Write-DtcTransactionsTraceSession: (Description: )"
+"Module","NetAdapter",""
+"Command","NetAdapter","Disable-NetAdapter: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterBinding: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterChecksumOffload: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterEncapsulatedPacketTaskOffload: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterIPsecOffload: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterLso: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterPowerManagement: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterQos: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterRdma: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterRsc: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterRss: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterSriov: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterVmq: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterPacketDirect: (Description: )"
+"Command","NetAdapter","Disable-NetAdapterUso: (Description: )"
+"Command","NetAdapter","Enable-NetAdapter: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterBinding: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterChecksumOffload: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterEncapsulatedPacketTaskOffload: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterIPsecOffload: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterLso: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterPowerManagement: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterQos: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterRdma: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterRsc: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterRss: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterSriov: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterVmq: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterPacketDirect: (Description: )"
+"Command","NetAdapter","Enable-NetAdapterUso: (Description: )"
+"Command","NetAdapter","Get-NetAdapter: (Description: )"
+"Command","NetAdapter","Get-NetAdapterAdvancedProperty: (Description: )"
+"Command","NetAdapter","Get-NetAdapterBinding: (Description: )"
+"Command","NetAdapter","Get-NetAdapterChecksumOffload: (Description: )"
+"Command","NetAdapter","Get-NetAdapterDataPathConfiguration: (Description: )"
+"Command","NetAdapter","Get-NetAdapterEncapsulatedPacketTaskOffload: (Description: )"
+"Command","NetAdapter","Get-NetAdapterHardwareInfo: (Description: )"
+"Command","NetAdapter","Get-NetAdapterIPsecOffload: (Description: )"
+"Command","NetAdapter","Get-NetAdapterLso: (Description: )"
+"Command","NetAdapter","Get-NetAdapterPowerManagement: (Description: )"
+"Command","NetAdapter","Get-NetAdapterQos: (Description: )"
+"Command","NetAdapter","Get-NetAdapterRdma: (Description: )"
+"Command","NetAdapter","Get-NetAdapterRsc: (Description: )"
+"Command","NetAdapter","Get-NetAdapterRss: (Description: )"
+"Command","NetAdapter","Get-NetAdapterSriov: (Description: )"
+"Command","NetAdapter","Get-NetAdapterSriovVf: (Description: )"
+"Command","NetAdapter","Get-NetAdapterStatistics: (Description: )"
+"Command","NetAdapter","Get-NetAdapterVmq: (Description: )"
+"Command","NetAdapter","Get-NetAdapterVMQQueue: (Description: )"
+"Command","NetAdapter","Get-NetAdapterVPort: (Description: )"
+"Command","NetAdapter","Get-NetAdapterPacketDirect: (Description: )"
+"Command","NetAdapter","Get-NetAdapterUso: (Description: )"
+"Command","NetAdapter","New-NetAdapterAdvancedProperty: (Description: )"
+"Command","NetAdapter","Remove-NetAdapterAdvancedProperty: (Description: )"
+"Command","NetAdapter","Rename-NetAdapter: (Description: )"
+"Command","NetAdapter","Reset-NetAdapterAdvancedProperty: (Description: )"
+"Command","NetAdapter","Restart-NetAdapter: (Description: )"
+"Command","NetAdapter","Set-NetAdapter: (Description: )"
+"Command","NetAdapter","Set-NetAdapterAdvancedProperty: (Description: )"
+"Command","NetAdapter","Set-NetAdapterBinding: (Description: )"
+"Command","NetAdapter","Set-NetAdapterChecksumOffload: (Description: )"
+"Command","NetAdapter","Set-NetAdapterDataPathConfiguration: (Description: )"
+"Command","NetAdapter","Set-NetAdapterEncapsulatedPacketTaskOffload: (Description: )"
+"Command","NetAdapter","Set-NetAdapterIPsecOffload: (Description: )"
+"Command","NetAdapter","Set-NetAdapterLso: (Description: )"
+"Command","NetAdapter","Set-NetAdapterPowerManagement: (Description: )"
+"Command","NetAdapter","Set-NetAdapterQos: (Description: )"
+"Command","NetAdapter","Set-NetAdapterRdma: (Description: )"
+"Command","NetAdapter","Set-NetAdapterRsc: (Description: )"
+"Command","NetAdapter","Set-NetAdapterRss: (Description: )"
+"Command","NetAdapter","Set-NetAdapterSriov: (Description: )"
+"Command","NetAdapter","Set-NetAdapterVmq: (Description: )"
+"Command","NetAdapter","Set-NetAdapterPacketDirect: (Description: )"
+"Command","NetAdapter","Set-NetAdapterUso: (Description: )"
+"Module","NetConnection",""
+"Command","NetConnection","Get-NetConnectionProfile: (Description: )"
+"Command","NetConnection","Set-NetConnectionProfile: (Description: )"
+"Module","NetEventPacketCapture",""
+"Command","NetEventPacketCapture","New-NetEventSession: (Description: )"
+"Command","NetEventPacketCapture","Remove-NetEventSession: (Description: )"
+"Command","NetEventPacketCapture","Get-NetEventSession: (Description: )"
+"Command","NetEventPacketCapture","Set-NetEventSession: (Description: )"
+"Command","NetEventPacketCapture","Start-NetEventSession: (Description: )"
+"Command","NetEventPacketCapture","Stop-NetEventSession: (Description: )"
+"Command","NetEventPacketCapture","Add-NetEventProvider: (Description: )"
+"Command","NetEventPacketCapture","Remove-NetEventProvider: (Description: )"
+"Command","NetEventPacketCapture","Get-NetEventProvider: (Description: )"
+"Command","NetEventPacketCapture","Set-NetEventProvider: (Description: )"
+"Command","NetEventPacketCapture","Add-NetEventPacketCaptureProvider: (Description: )"
+"Command","NetEventPacketCapture","Remove-NetEventPacketCaptureProvider: (Description: )"
+"Command","NetEventPacketCapture","Get-NetEventPacketCaptureProvider: (Description: )"
+"Command","NetEventPacketCapture","Set-NetEventPacketCaptureProvider: (Description: )"
+"Command","NetEventPacketCapture","Add-NetEventNetworkAdapter: (Description: )"
+"Command","NetEventPacketCapture","Remove-NetEventNetworkAdapter: (Description: )"
+"Command","NetEventPacketCapture","Get-NetEventNetworkAdapter: (Description: )"
+"Command","NetEventPacketCapture","Add-NetEventVmNetworkAdapter: (Description: )"
+"Command","NetEventPacketCapture","Remove-NetEventVmNetworkAdapter: (Description: )"
+"Command","NetEventPacketCapture","Get-NetEventVmNetworkAdapter: (Description: )"
+"Command","NetEventPacketCapture","Add-NetEventVmSwitch: (Description: )"
+"Command","NetEventPacketCapture","Remove-NetEventVmSwitch: (Description: )"
+"Command","NetEventPacketCapture","Get-NetEventVmSwitch: (Description: )"
+"Command","NetEventPacketCapture","Add-NetEventWFPCaptureProvider: (Description: )"
+"Command","NetEventPacketCapture","Remove-NetEventWFPCaptureProvider: (Description: )"
+"Command","NetEventPacketCapture","Get-NetEventWFPCaptureProvider: (Description: )"
+"Command","NetEventPacketCapture","Set-NetEventWFPCaptureProvider: (Description: )"
+"Command","NetEventPacketCapture","Add-NetEventVFPProvider: (Description: )"
+"Command","NetEventPacketCapture","Remove-NetEventVFPProvider: (Description: )"
+"Command","NetEventPacketCapture","Get-NetEventVFPProvider: (Description: )"
+"Command","NetEventPacketCapture","Set-NetEventVFPProvider: (Description: )"
+"Command","NetEventPacketCapture","Add-NetEventVmSwitchProvider: (Description: )"
+"Command","NetEventPacketCapture","Remove-NetEventVmSwitchProvider: (Description: )"
+"Command","NetEventPacketCapture","Get-NetEventVmSwitchProvider: (Description: )"
+"Command","NetEventPacketCapture","Set-NetEventVmSwitchProvider: (Description: )"
+"Module","NetLbfo",""
+"Command","NetLbfo","Add-NetLbfoTeamMember: (Description: )"
+"Command","NetLbfo","Add-NetLbfoTeamNic: (Description: )"
+"Command","NetLbfo","Get-NetLbfoTeam: (Description: )"
+"Command","NetLbfo","Get-NetLbfoTeamMember: (Description: )"
+"Command","NetLbfo","Get-NetLbfoTeamNic: (Description: )"
+"Command","NetLbfo","New-NetLbfoTeam: (Description: )"
+"Command","NetLbfo","Remove-NetLbfoTeam: (Description: )"
+"Command","NetLbfo","Remove-NetLbfoTeamMember: (Description: )"
+"Command","NetLbfo","Remove-NetLbfoTeamNic: (Description: )"
+"Command","NetLbfo","Rename-NetLbfoTeam: (Description: )"
+"Command","NetLbfo","Set-NetLbfoTeam: (Description: )"
+"Command","NetLbfo","Set-NetLbfoTeamMember: (Description: )"
+"Command","NetLbfo","Set-NetLbfoTeamNic: (Description: )"
+"Module","NetNat",""
+"Command","NetNat","Get-NetNat: (Description: )"
+"Command","NetNat","Get-NetNatExternalAddress: (Description: )"
+"Command","NetNat","Get-NetNatStaticMapping: (Description: )"
+"Command","NetNat","Get-NetNatSession: (Description: )"
+"Command","NetNat","Get-NetNatGlobal: (Description: )"
+"Command","NetNat","Set-NetNat: (Description: )"
+"Command","NetNat","Set-NetNatGlobal: (Description: )"
+"Command","NetNat","New-NetNat: (Description: )"
+"Command","NetNat","Add-NetNatExternalAddress: (Description: )"
+"Command","NetNat","Add-NetNatStaticMapping: (Description: )"
+"Command","NetNat","Remove-NetNat: (Description: )"
+"Command","NetNat","Remove-NetNatExternalAddress: (Description: )"
+"Command","NetNat","Remove-NetNatStaticMapping: (Description: )"
+"Module","NetQos",""
+"Command","NetQos","Get-NetQosPolicy: (Description: )"
+"Command","NetQos","Set-NetQosPolicy: (Description: )"
+"Command","NetQos","Remove-NetQosPolicy: (Description: )"
+"Command","NetQos","New-NetQosPolicy: (Description: )"
+"Module","NetSecurity",""
+"Command","NetSecurity","Get-DAPolicyChange: (Description: Get-DAPolicyChange
+)"
+"Command","NetSecurity","New-NetIPsecAuthProposal: (Description: New-NetIPsecAuthProposal
+)"
+"Command","NetSecurity","New-NetIPsecMainModeCryptoProposal: (Description: New-NetIPsecMainModeCryptoProposal
+)"
+"Command","NetSecurity","New-NetIPsecQuickModeCryptoProposal: (Description: New-NetIPsecQuickModeCryptoProposal
+)"
+"Command","NetSecurity","Copy-NetFirewallRule: (Description: )"
+"Command","NetSecurity","Copy-NetIPsecMainModeCryptoSet: (Description: )"
+"Command","NetSecurity","Copy-NetIPsecMainModeRule: (Description: )"
+"Command","NetSecurity","Copy-NetIPsecPhase1AuthSet: (Description: )"
+"Command","NetSecurity","Copy-NetIPsecPhase2AuthSet: (Description: )"
+"Command","NetSecurity","Copy-NetIPsecQuickModeCryptoSet: (Description: )"
+"Command","NetSecurity","Copy-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Disable-NetFirewallRule: (Description: )"
+"Command","NetSecurity","Disable-NetFirewallHyperVRule: (Description: )"
+"Command","NetSecurity","Disable-NetIPsecMainModeRule: (Description: )"
+"Command","NetSecurity","Disable-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Enable-NetFirewallRule: (Description: )"
+"Command","NetSecurity","Enable-NetFirewallHyperVRule: (Description: )"
+"Command","NetSecurity","Enable-NetIPsecMainModeRule: (Description: )"
+"Command","NetSecurity","Enable-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Get-NetFirewallAddressFilter: (Description: )"
+"Command","NetSecurity","Get-NetFirewallApplicationFilter: (Description: )"
+"Command","NetSecurity","Get-NetFirewallDynamicKeywordAddress: (Description: )"
+"Command","NetSecurity","Get-NetFirewallHyperVPort: (Description: )"
+"Command","NetSecurity","Get-NetFirewallHyperVProfile: (Description: )"
+"Command","NetSecurity","Get-NetFirewallHyperVRule: (Description: )"
+"Command","NetSecurity","Get-NetFirewallHyperVVMCreator: (Description: )"
+"Command","NetSecurity","Get-NetFirewallHyperVVMSetting: (Description: )"
+"Command","NetSecurity","Get-NetFirewallInterfaceFilter: (Description: )"
+"Command","NetSecurity","Get-NetFirewallInterfaceTypeFilter: (Description: )"
+"Command","NetSecurity","Get-NetFirewallPortFilter: (Description: )"
+"Command","NetSecurity","Get-NetFirewallProfile: (Description: )"
+"Command","NetSecurity","Get-NetFirewallRule: (Description: )"
+"Command","NetSecurity","Get-NetFirewallSecurityFilter: (Description: )"
+"Command","NetSecurity","Get-NetFirewallServiceFilter: (Description: )"
+"Command","NetSecurity","Get-NetFirewallSetting: (Description: )"
+"Command","NetSecurity","Get-NetIPsecDospSetting: (Description: )"
+"Command","NetSecurity","Get-NetIPsecMainModeCryptoSet: (Description: )"
+"Command","NetSecurity","Get-NetIPsecMainModeRule: (Description: )"
+"Command","NetSecurity","Get-NetIPsecMainModeSA: (Description: )"
+"Command","NetSecurity","Get-NetIPsecPhase1AuthSet: (Description: )"
+"Command","NetSecurity","Get-NetIPsecPhase2AuthSet: (Description: )"
+"Command","NetSecurity","Get-NetIPsecQuickModeCryptoSet: (Description: )"
+"Command","NetSecurity","Get-NetIPsecQuickModeSA: (Description: )"
+"Command","NetSecurity","Get-NetIPsecRule: (Description: )"
+"Command","NetSecurity","New-NetFirewallRule: (Description: )"
+"Command","NetSecurity","New-NetFirewallDynamicKeywordAddress: (Description: )"
+"Command","NetSecurity","New-NetFirewallHyperVProfile: (Description: )"
+"Command","NetSecurity","New-NetFirewallHyperVRule: (Description: )"
+"Command","NetSecurity","New-NetFirewallHyperVVMSetting: (Description: )"
+"Command","NetSecurity","New-NetIPsecDospSetting: (Description: )"
+"Command","NetSecurity","New-NetIPsecMainModeCryptoSet: (Description: )"
+"Command","NetSecurity","New-NetIPsecMainModeRule: (Description: )"
+"Command","NetSecurity","New-NetIPsecPhase1AuthSet: (Description: )"
+"Command","NetSecurity","New-NetIPsecPhase2AuthSet: (Description: )"
+"Command","NetSecurity","New-NetIPsecQuickModeCryptoSet: (Description: )"
+"Command","NetSecurity","New-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Open-NetGPO: (Description: )"
+"Command","NetSecurity","Remove-NetFirewallRule: (Description: )"
+"Command","NetSecurity","Remove-NetFirewallHyperVProfile: (Description: )"
+"Command","NetSecurity","Remove-NetFirewallHyperVRule: (Description: )"
+"Command","NetSecurity","Remove-NetFirewallHyperVVMSetting: (Description: )"
+"Command","NetSecurity","Remove-NetFirewallDynamicKeywordAddress: (Description: )"
+"Command","NetSecurity","Remove-NetIPsecDospSetting: (Description: )"
+"Command","NetSecurity","Remove-NetIPsecMainModeCryptoSet: (Description: )"
+"Command","NetSecurity","Remove-NetIPsecMainModeRule: (Description: )"
+"Command","NetSecurity","Remove-NetIPsecMainModeSA: (Description: )"
+"Command","NetSecurity","Remove-NetIPsecPhase1AuthSet: (Description: )"
+"Command","NetSecurity","Remove-NetIPsecPhase2AuthSet: (Description: )"
+"Command","NetSecurity","Remove-NetIPsecQuickModeCryptoSet: (Description: )"
+"Command","NetSecurity","Remove-NetIPsecQuickModeSA: (Description: )"
+"Command","NetSecurity","Remove-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Rename-NetFirewallRule: (Description: )"
+"Command","NetSecurity","Rename-NetFirewallHyperVRule: (Description: )"
+"Command","NetSecurity","Rename-NetIPsecMainModeCryptoSet: (Description: )"
+"Command","NetSecurity","Rename-NetIPsecMainModeRule: (Description: )"
+"Command","NetSecurity","Rename-NetIPsecPhase1AuthSet: (Description: )"
+"Command","NetSecurity","Rename-NetIPsecPhase2AuthSet: (Description: )"
+"Command","NetSecurity","Rename-NetIPsecQuickModeCryptoSet: (Description: )"
+"Command","NetSecurity","Rename-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Save-NetGPO: (Description: )"
+"Command","NetSecurity","Find-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Set-NetFirewallAddressFilter: (Description: )"
+"Command","NetSecurity","Set-NetFirewallApplicationFilter: (Description: )"
+"Command","NetSecurity","Set-NetFirewallInterfaceFilter: (Description: )"
+"Command","NetSecurity","Set-NetFirewallInterfaceTypeFilter: (Description: )"
+"Command","NetSecurity","Set-NetFirewallPortFilter: (Description: )"
+"Command","NetSecurity","Set-NetFirewallProfile: (Description: )"
+"Command","NetSecurity","Set-NetFirewallRule: (Description: )"
+"Command","NetSecurity","Set-NetFirewallHyperVRule: (Description: )"
+"Command","NetSecurity","Set-NetFirewallSecurityFilter: (Description: )"
+"Command","NetSecurity","Set-NetFirewallServiceFilter: (Description: )"
+"Command","NetSecurity","Set-NetFirewallSetting: (Description: )"
+"Command","NetSecurity","Set-NetFirewallHyperVProfile: (Description: )"
+"Command","NetSecurity","Set-NetFirewallHyperVVMSetting: (Description: )"
+"Command","NetSecurity","Set-NetIPsecDospSetting: (Description: )"
+"Command","NetSecurity","Set-NetIPsecMainModeCryptoSet: (Description: )"
+"Command","NetSecurity","Set-NetIPsecMainModeRule: (Description: )"
+"Command","NetSecurity","Set-NetIPsecPhase1AuthSet: (Description: )"
+"Command","NetSecurity","Set-NetIPsecPhase2AuthSet: (Description: )"
+"Command","NetSecurity","Set-NetIPsecQuickModeCryptoSet: (Description: )"
+"Command","NetSecurity","Set-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Show-NetFirewallRule: (Description: )"
+"Command","NetSecurity","Show-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Sync-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Update-NetIPsecRule: (Description: )"
+"Command","NetSecurity","Update-NetFirewallDynamicKeywordAddress: (Description: )"
+"Module","NetSwitchTeam",""
+"Command","NetSwitchTeam","New-NetSwitchTeam: (Description: )"
+"Command","NetSwitchTeam","Remove-NetSwitchTeam: (Description: )"
+"Command","NetSwitchTeam","Get-NetSwitchTeam: (Description: )"
+"Command","NetSwitchTeam","Rename-NetSwitchTeam: (Description: )"
+"Command","NetSwitchTeam","Add-NetSwitchTeamMember: (Description: )"
+"Command","NetSwitchTeam","Remove-NetSwitchTeamMember: (Description: )"
+"Command","NetSwitchTeam","Get-NetSwitchTeamMember: (Description: )"
+"Module","NetTCPIP",""
+"Command","NetTCPIP","Get-NetIPAddress: (Description: )"
+"Command","NetTCPIP","Get-NetIPInterface: (Description: )"
+"Command","NetTCPIP","Get-NetIPv4Protocol: (Description: )"
+"Command","NetTCPIP","Get-NetIPv6Protocol: (Description: )"
+"Command","NetTCPIP","Get-NetNeighbor: (Description: )"
+"Command","NetTCPIP","Get-NetOffloadGlobalSetting: (Description: )"
+"Command","NetTCPIP","Get-NetPrefixPolicy: (Description: )"
+"Command","NetTCPIP","Get-NetRoute: (Description: )"
+"Command","NetTCPIP","Get-NetTCPConnection: (Description: )"
+"Command","NetTCPIP","Get-NetTCPSetting: (Description: )"
+"Command","NetTCPIP","Get-NetTransportFilter: (Description: )"
+"Command","NetTCPIP","Get-NetUDPEndpoint: (Description: )"
+"Command","NetTCPIP","Get-NetUDPSetting: (Description: )"
+"Command","NetTCPIP","Get-NetCompartment: (Description: )"
+"Command","NetTCPIP","Get-NetIPConfiguration: (Description: )"
+"Command","NetTCPIP","New-NetIPAddress: (Description: )"
+"Command","NetTCPIP","New-NetNeighbor: (Description: )"
+"Command","NetTCPIP","New-NetRoute: (Description: )"
+"Command","NetTCPIP","New-NetTransportFilter: (Description: )"
+"Command","NetTCPIP","Remove-NetIPAddress: (Description: )"
+"Command","NetTCPIP","Remove-NetNeighbor: (Description: )"
+"Command","NetTCPIP","Remove-NetRoute: (Description: )"
+"Command","NetTCPIP","Remove-NetTransportFilter: (Description: )"
+"Command","NetTCPIP","Find-NetRoute: (Description: )"
+"Command","NetTCPIP","Set-NetIPAddress: (Description: )"
+"Command","NetTCPIP","Set-NetIPInterface: (Description: )"
+"Command","NetTCPIP","Set-NetIPv4Protocol: (Description: )"
+"Command","NetTCPIP","Set-NetIPv6Protocol: (Description: )"
+"Command","NetTCPIP","Set-NetNeighbor: (Description: )"
+"Command","NetTCPIP","Set-NetOffloadGlobalSetting: (Description: )"
+"Command","NetTCPIP","Set-NetRoute: (Description: )"
+"Command","NetTCPIP","Set-NetTCPSetting: (Description: )"
+"Command","NetTCPIP","Set-NetUDPSetting: (Description: )"
+"Command","NetTCPIP","Test-NetConnection: (Description: )"
+"Command","NetTCPIP","gip: (Description: )"
+"Command","NetTCPIP","TNC: (Description: )"
+"Module","NetworkConnectivityStatus",""
+"Command","NetworkConnectivityStatus","Get-DAConnectionStatus: (Description: )"
+"Command","NetworkConnectivityStatus","Get-NCSIPolicyConfiguration: (Description: )"
+"Command","NetworkConnectivityStatus","Reset-NCSIPolicyConfiguration: (Description: )"
+"Command","NetworkConnectivityStatus","Set-NCSIPolicyConfiguration: (Description: )"
+"Module","NetworkSwitchManager",""
+"Command","NetworkSwitchManager","Disable-NetworkSwitchEthernetPort: (Description: )"
+"Command","NetworkSwitchManager","Enable-NetworkSwitchEthernetPort: (Description: )"
+"Command","NetworkSwitchManager","Get-NetworkSwitchEthernetPort: (Description: )"
+"Command","NetworkSwitchManager","Remove-NetworkSwitchEthernetPortIPAddress: (Description: )"
+"Command","NetworkSwitchManager","Set-NetworkSwitchEthernetPortIPAddress: (Description: )"
+"Command","NetworkSwitchManager","Set-NetworkSwitchPortMode: (Description: )"
+"Command","NetworkSwitchManager","Set-NetworkSwitchPortProperty: (Description: )"
+"Command","NetworkSwitchManager","Disable-NetworkSwitchFeature: (Description: )"
+"Command","NetworkSwitchManager","Enable-NetworkSwitchFeature: (Description: )"
+"Command","NetworkSwitchManager","Get-NetworkSwitchFeature: (Description: )"
+"Command","NetworkSwitchManager","Disable-NetworkSwitchVlan: (Description: )"
+"Command","NetworkSwitchManager","Enable-NetworkSwitchVlan: (Description: )"
+"Command","NetworkSwitchManager","Get-NetworkSwitchVlan: (Description: )"
+"Command","NetworkSwitchManager","New-NetworkSwitchVlan: (Description: )"
+"Command","NetworkSwitchManager","Remove-NetworkSwitchVlan: (Description: )"
+"Command","NetworkSwitchManager","Set-NetworkSwitchVlanProperty: (Description: )"
+"Command","NetworkSwitchManager","Get-NetworkSwitchGlobalData: (Description: )"
+"Command","NetworkSwitchManager","Save-NetworkSwitchConfiguration: (Description: )"
+"Command","NetworkSwitchManager","Restore-NetworkSwitchConfiguration: (Description: )"
+"Module","NetworkTransition",""
+"Command","NetworkTransition","Add-NetIPHttpsCertBinding: (Description: )"
+"Command","NetworkTransition","Disable-NetDnsTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Disable-NetIPHttpsProfile: (Description: )"
+"Command","NetworkTransition","Disable-NetNatTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Enable-NetDnsTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Enable-NetIPHttpsProfile: (Description: )"
+"Command","NetworkTransition","Enable-NetNatTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Get-Net6to4Configuration: (Description: )"
+"Command","NetworkTransition","Get-NetDnsTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Get-NetDnsTransitionMonitoring: (Description: )"
+"Command","NetworkTransition","Get-NetIPHttpsConfiguration: (Description: )"
+"Command","NetworkTransition","Get-NetIPHttpsState: (Description: )"
+"Command","NetworkTransition","Get-NetIsatapConfiguration: (Description: )"
+"Command","NetworkTransition","Get-NetNatTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Get-NetNatTransitionMonitoring: (Description: )"
+"Command","NetworkTransition","Get-NetTeredoConfiguration: (Description: )"
+"Command","NetworkTransition","Get-NetTeredoState: (Description: )"
+"Command","NetworkTransition","New-NetIPHttpsConfiguration: (Description: )"
+"Command","NetworkTransition","New-NetNatTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Remove-NetIPHttpsCertBinding: (Description: )"
+"Command","NetworkTransition","Remove-NetIPHttpsConfiguration: (Description: )"
+"Command","NetworkTransition","Remove-NetNatTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Rename-NetIPHttpsConfiguration: (Description: )"
+"Command","NetworkTransition","Reset-Net6to4Configuration: (Description: )"
+"Command","NetworkTransition","Reset-NetDnsTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Reset-NetIPHttpsConfiguration: (Description: )"
+"Command","NetworkTransition","Reset-NetIsatapConfiguration: (Description: )"
+"Command","NetworkTransition","Reset-NetTeredoConfiguration: (Description: )"
+"Command","NetworkTransition","Set-Net6to4Configuration: (Description: )"
+"Command","NetworkTransition","Set-NetDnsTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Set-NetIPHttpsConfiguration: (Description: )"
+"Command","NetworkTransition","Set-NetIsatapConfiguration: (Description: )"
+"Command","NetworkTransition","Set-NetNatTransitionConfiguration: (Description: )"
+"Command","NetworkTransition","Set-NetTeredoConfiguration: (Description: )"
+"Module","PcsvDevice",""
+"Command","PcsvDevice","Get-PcsvDevice: (Description: )"
+"Command","PcsvDevice","Start-PcsvDevice: (Description: )"
+"Command","PcsvDevice","Stop-PcsvDevice: (Description: )"
+"Command","PcsvDevice","Restart-PcsvDevice: (Description: )"
+"Command","PcsvDevice","Set-PcsvDeviceBootConfiguration: (Description: )"
+"Command","PcsvDevice","Set-PcsvDeviceNetworkConfiguration: (Description: )"
+"Command","PcsvDevice","Set-PcsvDeviceUserPassword: (Description: )"
+"Command","PcsvDevice","Clear-PcsvDeviceLog: (Description: )"
+"Command","PcsvDevice","Get-PcsvDeviceLog: (Description: )"
+"Module","PersistentMemory",""
+"Command","PersistentMemory","Get-PmemDisk: (Description: Get-PmemDisk
+)"
+"Command","PersistentMemory","Get-PmemPhysicalDevice: (Description: Get-PmemPhysicalDevice
+)"
+"Command","PersistentMemory","Get-PmemUnusedRegion: (Description: Get-PmemUnusedRegion
+)"
+"Command","PersistentMemory","New-PmemDisk: (Description: New-PmemDisk
+)"
+"Command","PersistentMemory","Remove-PmemDisk: (Description: Remove-PmemDisk
+)"
+"Command","PersistentMemory","Initialize-PmemPhysicalDevice: (Description: Initialize-PmemPhysicalDevice
+)"
+"Command","PersistentMemory","Get-PmemDedicatedMemory: (Description: Get-PmemDedicatedMemory
+)"
+"Command","PersistentMemory","New-PmemDedicatedMemory: (Description: New-PmemDedicatedMemory
+)"
+"Command","PersistentMemory","Remove-PmemDedicatedMemory: (Description: Remove-PmemDedicatedMemory
+)"
+"Module","PKI",""
+"Command","PKI","Add-CertificateEnrollmentPolicyServer: (Description: Add-CertificateEnrollmentPolicyServer
+)"
+"Command","PKI","Export-Certificate: (Description: Export-Certificate
+)"
+"Command","PKI","Export-PfxCertificate: (Description: Export-PfxCertificate
+)"
+"Command","PKI","Get-CertificateAutoEnrollmentPolicy: (Description: Get-CertificateAutoEnrollmentPolicy
+)"
+"Command","PKI","Get-Certificate: (Description: Get-Certificate
+)"
+"Command","PKI","Get-CertificateNotificationTask: (Description: Get-CertificateNotificationTask
+)"
+"Command","PKI","Get-CertificateEnrollmentPolicyServer: (Description: Get-CertificateEnrollmentPolicyServer
+)"
+"Command","PKI","Get-PfxData: (Description: Get-PfxData
+)"
+"Command","PKI","Import-Certificate: (Description: Import-Certificate
+)"
+"Command","PKI","Import-PfxCertificate: (Description: Import-PfxCertificate
+)"
+"Command","PKI","New-CertificateNotificationTask: (Description: New-CertificateNotificationTask
+)"
+"Command","PKI","New-SelfSignedCertificate: (Description: New-SelfSignedCertificate
+)"
+"Command","PKI","Remove-CertificateNotificationTask: (Description: Remove-CertificateNotificationTask
+)"
+"Command","PKI","Remove-CertificateEnrollmentPolicyServer: (Description: Remove-CertificateEnrollmentPolicyServer
+)"
+"Command","PKI","Set-CertificateAutoEnrollmentPolicy: (Description: Set-CertificateAutoEnrollmentPolicy
+)"
+"Command","PKI","Switch-Certificate: (Description: Switch-Certificate
+)"
+"Command","PKI","Test-Certificate: (Description: Test-Certificate
+)"
+"Module","PnpDevice",""
+"Command","PnpDevice","Get-PnpDevice: (Description: )"
+"Command","PnpDevice","Get-PnpDeviceProperty: (Description: )"
+"Command","PnpDevice","Enable-PnpDevice: (Description: )"
+"Command","PnpDevice","Disable-PnpDevice: (Description: )"
+"Module","PrintManagement",""
+"Command","PrintManagement","Add-Printer: (Description: )"
+"Command","PrintManagement","Add-PrinterDriver: (Description: )"
+"Command","PrintManagement","Add-PrinterPort: (Description: )"
+"Command","PrintManagement","Get-PrintConfiguration: (Description: )"
+"Command","PrintManagement","Get-Printer: (Description: )"
+"Command","PrintManagement","Get-PrinterDriver: (Description: )"
+"Command","PrintManagement","Get-PrinterPort: (Description: )"
+"Command","PrintManagement","Get-PrinterProperty: (Description: )"
+"Command","PrintManagement","Get-PrintJob: (Description: )"
+"Command","PrintManagement","Read-PrinterNfcTag: (Description: )"
+"Command","PrintManagement","Remove-Printer: (Description: )"
+"Command","PrintManagement","Remove-PrinterDriver: (Description: )"
+"Command","PrintManagement","Remove-PrinterPort: (Description: )"
+"Command","PrintManagement","Remove-PrintJob: (Description: )"
+"Command","PrintManagement","Rename-Printer: (Description: )"
+"Command","PrintManagement","Restart-PrintJob: (Description: )"
+"Command","PrintManagement","Resume-PrintJob: (Description: )"
+"Command","PrintManagement","Set-PrintConfiguration: (Description: )"
+"Command","PrintManagement","Set-Printer: (Description: )"
+"Command","PrintManagement","Set-PrinterProperty: (Description: )"
+"Command","PrintManagement","Suspend-PrintJob: (Description: )"
+"Command","PrintManagement","Write-PrinterNfcTag: (Description: )"
+"Module","ProcessMitigations",""
+"Command","ProcessMitigations","Get-ProcessMitigation: (Description: Get-ProcessMitigation
+)"
+"Command","ProcessMitigations","Set-ProcessMitigation: (Description: Set-ProcessMitigation
+)"
+"Command","ProcessMitigations","ConvertTo-ProcessMitigationPolicy: (Description: ConvertTo-ProcessMitigationPolicy
+)"
+"Module","Provisioning",""
+"Command","Provisioning","Install-ProvisioningPackage: (Description: Install-ProvisioningPackage
+)"
+"Command","Provisioning","Export-ProvisioningPackage: (Description: Export-ProvisioningPackage
+)"
+"Command","Provisioning","Install-TrustedProvisioningCertificate: (Description: Install-TrustedProvisioningCertificate
+)"
+"Command","Provisioning","Export-Trace: (Description: Export-Trace
+)"
+"Command","Provisioning","Get-ProvisioningPackage: (Description: Get-ProvisioningPackage
+)"
+"Command","Provisioning","Get-TrustedProvisioningCertificate: (Description: Get-TrustedProvisioningCertificate
+)"
+"Command","Provisioning","New-ProvisioningRepro: (Description: New-ProvisioningRepro
+)"
+"Command","Provisioning","Uninstall-ProvisioningPackage: (Description: Uninstall-ProvisioningPackage
+)"
+"Command","Provisioning","Uninstall-TrustedProvisioningCertificate: (Description: Uninstall-TrustedProvisioningCertificate
+)"
+"Command","Provisioning","Resume-ProvisioningSession: (Description: Resume-ProvisioningSession
+)"
+"Command","Provisioning","Add-ProvisioningPackage: (Description: )"
+"Command","Provisioning","Add-TrustedProvisioningCertificate: (Description: )"
+"Command","Provisioning","Remove-ProvisioningPackage: (Description: )"
+"Command","Provisioning","Remove-TrustedProvisioningCertificate: (Description: )"
+"Module","PSDesiredStateConfiguration",""
+"Command","PSDesiredStateConfiguration","Set-DscLocalConfigurationManager: (Description: Set-DscLocalConfigurationManager
+)"
+"Command","PSDesiredStateConfiguration","Start-DscConfiguration: (Description: Start-DscConfiguration
+)"
+"Command","PSDesiredStateConfiguration","Test-DscConfiguration: (Description: Test-DscConfiguration
+)"
+"Command","PSDesiredStateConfiguration","Publish-DscConfiguration: (Description: Publish-DscConfiguration
+)"
+"Command","PSDesiredStateConfiguration","Update-DscConfiguration: (Description: )"
+"Command","PSDesiredStateConfiguration","Invoke-DscResource: (Description: Invoke-DscResource
+)"
+"Command","PSDesiredStateConfiguration","Configuration: (Description: )"
+"Command","PSDesiredStateConfiguration","Get-DscConfiguration: (Description: )"
+"Command","PSDesiredStateConfiguration","Get-DscLocalConfigurationManager: (Description: )"
+"Command","PSDesiredStateConfiguration","Restore-DscConfiguration: (Description: )"
+"Command","PSDesiredStateConfiguration","New-DscChecksum: (Description: )"
+"Command","PSDesiredStateConfiguration","Get-DscResource: (Description: )"
+"Command","PSDesiredStateConfiguration","Get-DscConfigurationStatus: (Description: )"
+"Command","PSDesiredStateConfiguration","Stop-DscConfiguration: (Description: )"
+"Command","PSDesiredStateConfiguration","Remove-DscConfigurationDocument: (Description: )"
+"Command","PSDesiredStateConfiguration","Enable-DscDebug: (Description: )"
+"Command","PSDesiredStateConfiguration","Disable-DscDebug: (Description: )"
+"Command","PSDesiredStateConfiguration","sacfg: (Description: )"
+"Command","PSDesiredStateConfiguration","tcfg: (Description: )"
+"Command","PSDesiredStateConfiguration","gcfg: (Description: )"
+"Command","PSDesiredStateConfiguration","rtcfg: (Description: )"
+"Command","PSDesiredStateConfiguration","upcfg: (Description: )"
+"Command","PSDesiredStateConfiguration","glcm: (Description: )"
+"Command","PSDesiredStateConfiguration","slcm: (Description: )"
+"Command","PSDesiredStateConfiguration","pbcfg: (Description: )"
+"Command","PSDesiredStateConfiguration","cmpcfg: (Description: )"
+"Command","PSDesiredStateConfiguration","gcfgs: (Description: )"
+"Module","PSDiagnostics",""
+"Command","PSDiagnostics","Disable-PSTrace: (Description: )"
+"Command","PSDiagnostics","Disable-PSWSManCombinedTrace: (Description: )"
+"Command","PSDiagnostics","Disable-WSManTrace: (Description: )"
+"Command","PSDiagnostics","Enable-PSTrace: (Description: )"
+"Command","PSDiagnostics","Enable-PSWSManCombinedTrace: (Description: )"
+"Command","PSDiagnostics","Enable-WSManTrace: (Description: )"
+"Command","PSDiagnostics","Get-LogProperties: (Description: )"
+"Command","PSDiagnostics","Set-LogProperties: (Description: )"
+"Command","PSDiagnostics","Start-Trace: (Description: )"
+"Command","PSDiagnostics","Stop-Trace: (Description: )"
+"Module","PSScheduledJob",""
+"Command","PSScheduledJob","New-JobTrigger: (Description: New-JobTrigger
+)"
+"Command","PSScheduledJob","Add-JobTrigger: (Description: Add-JobTrigger
+)"
+"Command","PSScheduledJob","Remove-JobTrigger: (Description: Remove-JobTrigger
+)"
+"Command","PSScheduledJob","Get-JobTrigger: (Description: Get-JobTrigger
+)"
+"Command","PSScheduledJob","Set-JobTrigger: (Description: Set-JobTrigger
+)"
+"Command","PSScheduledJob","Enable-JobTrigger: (Description: Enable-JobTrigger
+)"
+"Command","PSScheduledJob","Disable-JobTrigger: (Description: Disable-JobTrigger
+)"
+"Command","PSScheduledJob","New-ScheduledJobOption: (Description: New-ScheduledJobOption
+)"
+"Command","PSScheduledJob","Get-ScheduledJobOption: (Description: Get-ScheduledJobOption
+)"
+"Command","PSScheduledJob","Set-ScheduledJobOption: (Description: Set-ScheduledJobOption
+)"
+"Command","PSScheduledJob","Register-ScheduledJob: (Description: Register-ScheduledJob
+)"
+"Command","PSScheduledJob","Get-ScheduledJob: (Description: Get-ScheduledJob
+)"
+"Command","PSScheduledJob","Set-ScheduledJob: (Description: Set-ScheduledJob
+)"
+"Command","PSScheduledJob","Unregister-ScheduledJob: (Description: Unregister-ScheduledJob
+)"
+"Command","PSScheduledJob","Enable-ScheduledJob: (Description: Enable-ScheduledJob
+)"
+"Command","PSScheduledJob","Disable-ScheduledJob: (Description: Disable-ScheduledJob
+)"
+"Module","PSWorkflow",""
+"Command","PSWorkflow","New-PSWorkflowExecutionOption: (Description: New-PSWorkflowExecutionOption
+)"
+"Command","PSWorkflow","New-PSWorkflowSession: (Description: )"
+"Command","PSWorkflow","nwsn: (Description: )"
+"Module","PSWorkflowUtility",""
+"Command","PSWorkflowUtility","Invoke-AsWorkflow: (Description: )"
+"Module","ScheduledTasks",""
+"Command","ScheduledTasks","Get-ScheduledTask: (Description: )"
+"Command","ScheduledTasks","Set-ScheduledTask: (Description: )"
+"Command","ScheduledTasks","Register-ScheduledTask: (Description: )"
+"Command","ScheduledTasks","Unregister-ScheduledTask: (Description: )"
+"Command","ScheduledTasks","Enable-ScheduledTask: (Description: )"
+"Command","ScheduledTasks","Disable-ScheduledTask: (Description: )"
+"Command","ScheduledTasks","Export-ScheduledTask: (Description: )"
+"Command","ScheduledTasks","New-ScheduledTask: (Description: )"
+"Command","ScheduledTasks","New-ScheduledTaskAction: (Description: )"
+"Command","ScheduledTasks","New-ScheduledTaskPrincipal: (Description: )"
+"Command","ScheduledTasks","New-ScheduledTaskSettingsSet: (Description: )"
+"Command","ScheduledTasks","New-ScheduledTaskTrigger: (Description: )"
+"Command","ScheduledTasks","Start-ScheduledTask: (Description: )"
+"Command","ScheduledTasks","Stop-ScheduledTask: (Description: )"
+"Command","ScheduledTasks","Get-ScheduledTaskInfo: (Description: )"
+"Command","ScheduledTasks","Get-ClusteredScheduledTask: (Description: )"
+"Command","ScheduledTasks","Set-ClusteredScheduledTask: (Description: )"
+"Command","ScheduledTasks","Register-ClusteredScheduledTask: (Description: )"
+"Command","ScheduledTasks","Unregister-ClusteredScheduledTask: (Description: )"
+"Module","SecureBoot",""
+"Command","SecureBoot","Confirm-SecureBootUEFI: (Description: Confirm-SecureBootUEFI
+)"
+"Command","SecureBoot","Set-SecureBootUEFI: (Description: Set-SecureBootUEFI
+)"
+"Command","SecureBoot","Get-SecureBootUEFI: (Description: Get-SecureBootUEFI
+)"
+"Command","SecureBoot","Format-SecureBootUEFI: (Description: Format-SecureBootUEFI
+)"
+"Command","SecureBoot","Get-SecureBootPolicy: (Description: Get-SecureBootPolicy
+)"
+"Module","SmbShare",""
+"Command","SmbShare","Get-SmbShare: (Description: )"
+"Command","SmbShare","Remove-SmbShare: (Description: )"
+"Command","SmbShare","Set-SmbShare: (Description: )"
+"Command","SmbShare","Block-SmbShareAccess: (Description: )"
+"Command","SmbShare","Unblock-SmbShareAccess: (Description: )"
+"Command","SmbShare","Grant-SmbShareAccess: (Description: )"
+"Command","SmbShare","Revoke-SmbShareAccess: (Description: )"
+"Command","SmbShare","Get-SmbShareAccess: (Description: )"
+"Command","SmbShare","New-SmbShare: (Description: )"
+"Command","SmbShare","Get-SmbSession: (Description: )"
+"Command","SmbShare","Close-SmbSession: (Description: )"
+"Command","SmbShare","Get-SmbServerNetworkInterface: (Description: )"
+"Command","SmbShare","Get-SmbServerConfiguration: (Description: )"
+"Command","SmbShare","Reset-SmbServerConfiguration: (Description: )"
+"Command","SmbShare","Set-SmbServerConfiguration: (Description: )"
+"Command","SmbShare","Get-SmbOpenFile: (Description: )"
+"Command","SmbShare","Close-SmbOpenFile: (Description: )"
+"Command","SmbShare","Get-SmbMultichannelConnection: (Description: )"
+"Command","SmbShare","Update-SmbMultichannelConnection: (Description: )"
+"Command","SmbShare","Get-SmbMapping: (Description: )"
+"Command","SmbShare","Remove-SmbMapping: (Description: )"
+"Command","SmbShare","New-SmbMapping: (Description: )"
+"Command","SmbShare","Get-SmbClientNetworkInterface: (Description: )"
+"Command","SmbShare","Get-SmbClientConfiguration: (Description: )"
+"Command","SmbShare","Reset-SmbClientConfiguration: (Description: )"
+"Command","SmbShare","Set-SmbClientConfiguration: (Description: )"
+"Command","SmbShare","Get-SmbConnection: (Description: )"
+"Command","SmbShare","Get-SmbMultichannelConstraint: (Description: )"
+"Command","SmbShare","New-SmbMultichannelConstraint: (Description: )"
+"Command","SmbShare","Remove-SmbMultichannelConstraint: (Description: )"
+"Command","SmbShare","Set-SmbPathAcl: (Description: )"
+"Command","SmbShare","Get-SmbBandWidthLimit: (Description: )"
+"Command","SmbShare","Set-SmbBandwidthLimit: (Description: )"
+"Command","SmbShare","Remove-SmbBandwidthLimit: (Description: )"
+"Command","SmbShare","Get-SmbDelegation: (Description: )"
+"Command","SmbShare","Enable-SmbDelegation: (Description: )"
+"Command","SmbShare","Disable-SmbDelegation: (Description: )"
+"Command","SmbShare","Get-SmbGlobalMapping: (Description: )"
+"Command","SmbShare","Remove-SmbGlobalMapping: (Description: )"
+"Command","SmbShare","New-SmbGlobalMapping: (Description: )"
+"Command","SmbShare","Get-SmbServerCertificateMapping: (Description: )"
+"Command","SmbShare","New-SmbServerCertificateMapping: (Description: )"
+"Command","SmbShare","Remove-SmbServerCertificateMapping: (Description: )"
+"Command","SmbShare","Set-SmbServerCertificateMapping: (Description: )"
+"Command","SmbShare","Get-SmbClientCertificateMapping: (Description: )"
+"Command","SmbShare","New-SmbClientCertificateMapping: (Description: )"
+"Command","SmbShare","Remove-SmbClientCertificateMapping: (Description: )"
+"Command","SmbShare","Set-SmbClientCertificateMapping: (Description: )"
+"Command","SmbShare","Remove-SMBComponent: (Description: )"
+"Command","SmbShare","Get-SmbServerCertProps: (Description: )"
+"Command","SmbShare","Grant-SmbClientAccessToServer: (Description: )"
+"Command","SmbShare","Revoke-SmbClientAccessToServer: (Description: )"
+"Command","SmbShare","Block-SmbClientAccessToServer: (Description: )"
+"Command","SmbShare","Unblock-SmbClientAccessToServer: (Description: )"
+"Command","SmbShare","Get-SmbClientAccessToServer: (Description: )"
+"Command","SmbShare","gsmbs: (Description: )"
+"Command","SmbShare","nsmbs: (Description: )"
+"Command","SmbShare","rsmbs: (Description: )"
+"Command","SmbShare","ssmbs: (Description: )"
+"Command","SmbShare","gsmba: (Description: )"
+"Command","SmbShare","grsmba: (Description: )"
+"Command","SmbShare","rksmba: (Description: )"
+"Command","SmbShare","blsmba: (Description: )"
+"Command","SmbShare","ulsmba: (Description: )"
+"Command","SmbShare","gsmbse: (Description: )"
+"Command","SmbShare","cssmbse: (Description: )"
+"Command","SmbShare","gsmbo: (Description: )"
+"Command","SmbShare","cssmbo: (Description: )"
+"Command","SmbShare","gsmbsc: (Description: )"
+"Command","SmbShare","rsmbsc: (Description: )"
+"Command","SmbShare","ssmbsc: (Description: )"
+"Command","SmbShare","rsmbcc: (Description: )"
+"Command","SmbShare","gsmbcc: (Description: )"
+"Command","SmbShare","ssmbcc: (Description: )"
+"Command","SmbShare","gsmbc: (Description: )"
+"Command","SmbShare","gsmbm: (Description: )"
+"Command","SmbShare","nsmbm: (Description: )"
+"Command","SmbShare","rsmbm: (Description: )"
+"Command","SmbShare","gsmbcn: (Description: )"
+"Command","SmbShare","gsmbsn: (Description: )"
+"Command","SmbShare","gsmbmc: (Description: )"
+"Command","SmbShare","udsmbmc: (Description: )"
+"Command","SmbShare","gsmbt: (Description: )"
+"Command","SmbShare","nsmbt: (Description: )"
+"Command","SmbShare","rsmbt: (Description: )"
+"Command","SmbShare","ssmbp: (Description: )"
+"Command","SmbShare","gsmbb: (Description: )"
+"Command","SmbShare","ssmbb: (Description: )"
+"Command","SmbShare","rsmbb: (Description: )"
+"Command","SmbShare","gsmbd: (Description: )"
+"Command","SmbShare","esmbd: (Description: )"
+"Command","SmbShare","dsmbd: (Description: )"
+"Command","SmbShare","gsmbgm: (Description: )"
+"Command","SmbShare","nsmbgm: (Description: )"
+"Command","SmbShare","rsmbgm: (Description: )"
+"Command","SmbShare","gsmbscm: (Description: )"
+"Command","SmbShare","rsmbscm: (Description: )"
+"Command","SmbShare","nsmbscm: (Description: )"
+"Command","SmbShare","ssmbscm: (Description: )"
+"Command","SmbShare","gsmbccm: (Description: )"
+"Command","SmbShare","nsmbccm: (Description: )"
+"Command","SmbShare","rsmbccm: (Description: )"
+"Command","SmbShare","ssmbccm: (Description: )"
+"Command","SmbShare","rsmbc: (Description: )"
+"Command","SmbShare","gsmbscp: (Description: )"
+"Command","SmbShare","grsmbclas: (Description: )"
+"Command","SmbShare","rksmbclas: (Description: )"
+"Command","SmbShare","blsmbclas: (Description: )"
+"Command","SmbShare","ulsmbclas: (Description: )"
+"Command","SmbShare","gsmbclas: (Description: )"
+"Module","SmbWitness",""
+"Command","SmbWitness","Get-SmbWitnessClient: (Description: )"
+"Command","SmbWitness","Move-SmbWitnessClient: (Description: )"
+"Command","SmbWitness","gsmbw: (Description: )"
+"Command","SmbWitness","msmbw: (Description: )"
+"Command","SmbWitness","Move-SmbClient: (Description: )"
+"Module","StartLayout",""
+"Command","StartLayout","Export-StartLayout: (Description: Export-StartLayout
+)"
+"Command","StartLayout","Import-StartLayout: (Description: Import-StartLayout
+)"
+"Command","StartLayout","Export-StartLayoutEdgeAssets: (Description: Export-StartLayoutEdgeAssets
+)"
+"Command","StartLayout","Get-StartApps: (Description: )"
+"Module","Storage",""
+"Command","Storage","Add-InitiatorIdToMaskingSet: (Description: )"
+"Command","Storage","Add-PartitionAccessPath: (Description: )"
+"Command","Storage","Add-PhysicalDisk: (Description: )"
+"Command","Storage","Add-StorageFaultDomain: (Description: )"
+"Command","Storage","Add-TargetPortToMaskingSet: (Description: )"
+"Command","Storage","Add-VirtualDiskToMaskingSet: (Description: )"
+"Command","Storage","Block-FileShareAccess: (Description: )"
+"Command","Storage","Clear-Disk: (Description: )"
+"Command","Storage","Clear-FileStorageTier: (Description: )"
+"Command","Storage","Clear-StorageDiagnosticInfo: (Description: )"
+"Command","Storage","Connect-VirtualDisk: (Description: )"
+"Command","Storage","Debug-FileShare: (Description: )"
+"Command","Storage","Debug-StorageSubSystem: (Description: )"
+"Command","Storage","Debug-Volume: (Description: )"
+"Command","Storage","Disable-PhysicalDiskIdentification: (Description: )"
+"Command","Storage","Disable-StorageDataCollection: (Description: )"
+"Command","Storage","Disable-StorageEnclosureIdentification: (Description: )"
+"Command","Storage","Disable-StorageEnclosurePower: (Description: )"
+"Command","Storage","Disable-StorageHighAvailability: (Description: )"
+"Command","Storage","Disable-StorageMaintenanceMode: (Description: )"
+"Command","Storage","Disconnect-VirtualDisk: (Description: )"
+"Command","Storage","Dismount-DiskImage: (Description: )"
+"Command","Storage","Enable-PhysicalDiskIdentification: (Description: )"
+"Command","Storage","Enable-StorageDataCollection: (Description: )"
+"Command","Storage","Enable-StorageEnclosureIdentification: (Description: )"
+"Command","Storage","Enable-StorageEnclosurePower: (Description: )"
+"Command","Storage","Enable-StorageHighAvailability: (Description: )"
+"Command","Storage","Enable-StorageMaintenanceMode: (Description: )"
+"Command","Storage","Format-Volume: (Description: )"
+"Command","Storage","Get-DedupProperties: (Description: )"
+"Command","Storage","Get-Disk: (Description: )"
+"Command","Storage","Get-DiskImage: (Description: )"
+"Command","Storage","Get-DiskStorageNodeView: (Description: )"
+"Command","Storage","Get-FileIntegrity: (Description: )"
+"Command","Storage","Get-FileStorageTier: (Description: )"
+"Command","Storage","Get-StorageFileServer: (Description: )"
+"Command","Storage","Get-FileShare: (Description: )"
+"Command","Storage","Get-FileShareAccessControlEntry: (Description: )"
+"Command","Storage","Get-InitiatorId: (Description: )"
+"Command","Storage","Get-InitiatorPort: (Description: )"
+"Command","Storage","Get-MaskingSet: (Description: )"
+"Command","Storage","Get-Partition: (Description: )"
+"Command","Storage","Get-PartitionSupportedSize: (Description: )"
+"Command","Storage","Get-PhysicalDisk: (Description: )"
+"Command","Storage","Get-PhysicalDiskStorageNodeView: (Description: )"
+"Command","Storage","Get-PhysicalExtent: (Description: )"
+"Command","Storage","Get-PhysicalExtentAssociation: (Description: )"
+"Command","Storage","Get-ResiliencySetting: (Description: )"
+"Command","Storage","Get-StorageAdvancedProperty: (Description: )"
+"Command","Storage","Get-StorageChassis: (Description: )"
+"Command","Storage","Get-StorageDataCollection: (Description: )"
+"Command","Storage","Get-StorageDiagnosticInfo: (Description: )"
+"Command","Storage","Get-StorageEnclosure: (Description: )"
+"Command","Storage","Get-StorageEnclosureStorageNodeView: (Description: )"
+"Command","Storage","Get-StorageEnclosureVendorData: (Description: )"
+"Command","Storage","Get-StorageExtendedStatus: (Description: )"
+"Command","Storage","Get-StorageFaultDomain: (Description: )"
+"Command","Storage","Get-StorageFirmwareInformation: (Description: )"
+"Command","Storage","Get-StorageHealthAction: (Description: )"
+"Command","Storage","Get-StorageHealthReport: (Description: )"
+"Command","Storage","Get-StorageHealthSetting: (Description: )"
+"Command","Storage","Get-StorageJob: (Description: )"
+"Command","Storage","Get-StorageNode: (Description: )"
+"Command","Storage","Get-StorageHistory: (Description: )"
+"Command","Storage","Get-StoragePool: (Description: )"
+"Command","Storage","Get-StorageProvider: (Description: )"
+"Command","Storage","Get-StorageRack: (Description: )"
+"Command","Storage","Get-StorageReliabilityCounter: (Description: )"
+"Command","Storage","Get-StorageScaleUnit: (Description: )"
+"Command","Storage","Get-StorageSetting: (Description: )"
+"Command","Storage","Get-StorageSite: (Description: )"
+"Command","Storage","Get-StorageSubSystem: (Description: )"
+"Command","Storage","Get-StorageTier: (Description: )"
+"Command","Storage","Get-StorageTierSupportedSize: (Description: )"
+"Command","Storage","Get-SupportedFileSystems: (Description: )"
+"Command","Storage","Get-SupportedClusterSizes: (Description: )"
+"Command","Storage","Get-TargetPort: (Description: )"
+"Command","Storage","Get-TargetPortal: (Description: )"
+"Command","Storage","Get-VirtualDisk: (Description: )"
+"Command","Storage","Get-VirtualDiskSupportedSize: (Description: )"
+"Command","Storage","Get-OffloadDataTransferSetting: (Description: )"
+"Command","Storage","Get-Volume: (Description: )"
+"Command","Storage","Get-VolumeCorruptionCount: (Description: )"
+"Command","Storage","Get-VolumeScrubPolicy: (Description: )"
+"Command","Storage","Grant-FileShareAccess: (Description: )"
+"Command","Storage","Hide-VirtualDisk: (Description: )"
+"Command","Storage","Initialize-Disk: (Description: )"
+"Command","Storage","Mount-DiskImage: (Description: )"
+"Command","Storage","New-MaskingSet: (Description: )"
+"Command","Storage","New-Partition: (Description: )"
+"Command","Storage","New-StorageFileServer: (Description: )"
+"Command","Storage","New-FileShare: (Description: )"
+"Command","Storage","New-StoragePool: (Description: )"
+"Command","Storage","New-StorageSubsystemVirtualDisk: (Description: )"
+"Command","Storage","New-StorageTier: (Description: )"
+"Command","Storage","New-VirtualDisk: (Description: )"
+"Command","Storage","New-VirtualDiskClone: (Description: )"
+"Command","Storage","New-VirtualDiskSnapshot: (Description: )"
+"Command","Storage","New-Volume: (Description: )"
+"Command","Storage","Optimize-Volume: (Description: )"
+"Command","Storage","Optimize-StoragePool: (Description: )"
+"Command","Storage","Register-StorageSubsystem: (Description: )"
+"Command","Storage","Remove-FileShare: (Description: )"
+"Command","Storage","Remove-InitiatorId: (Description: )"
+"Command","Storage","Remove-InitiatorIdFromMaskingSet: (Description: )"
+"Command","Storage","Remove-MaskingSet: (Description: )"
+"Command","Storage","Remove-Partition: (Description: )"
+"Command","Storage","Remove-PartitionAccessPath: (Description: )"
+"Command","Storage","Remove-PhysicalDisk: (Description: )"
+"Command","Storage","Remove-StorageFaultDomain: (Description: )"
+"Command","Storage","Remove-StorageFileServer: (Description: )"
+"Command","Storage","Remove-StorageHealthIntent: (Description: )"
+"Command","Storage","Remove-StorageHealthSetting: (Description: )"
+"Command","Storage","Remove-StoragePool: (Description: )"
+"Command","Storage","Remove-StorageTier: (Description: )"
+"Command","Storage","Remove-TargetPortFromMaskingSet: (Description: )"
+"Command","Storage","Remove-VirtualDisk: (Description: )"
+"Command","Storage","Remove-VirtualDiskFromMaskingSet: (Description: )"
+"Command","Storage","Rename-MaskingSet: (Description: )"
+"Command","Storage","Repair-FileIntegrity: (Description: )"
+"Command","Storage","Repair-VirtualDisk: (Description: )"
+"Command","Storage","Repair-Volume: (Description: )"
+"Command","Storage","Reset-PhysicalDisk: (Description: )"
+"Command","Storage","Reset-StorageReliabilityCounter: (Description: )"
+"Command","Storage","Resize-Partition: (Description: )"
+"Command","Storage","Resize-StorageTier: (Description: )"
+"Command","Storage","Resize-VirtualDisk: (Description: )"
+"Command","Storage","Revoke-FileShareAccess: (Description: )"
+"Command","Storage","Save-StorageDataCollection: (Description: )"
+"Command","Storage","Set-Disk: (Description: )"
+"Command","Storage","Set-FileIntegrity: (Description: )"
+"Command","Storage","Set-FileStorageTier: (Description: )"
+"Command","Storage","Set-FileShare: (Description: )"
+"Command","Storage","Set-InitiatorPort: (Description: )"
+"Command","Storage","Set-Partition: (Description: )"
+"Command","Storage","Set-PhysicalDisk: (Description: )"
+"Command","Storage","Set-ResiliencySetting: (Description: )"
+"Command","Storage","Set-StorageFileServer: (Description: )"
+"Command","Storage","Set-StorageHealthSetting: (Description: )"
+"Command","Storage","Set-StoragePool: (Description: )"
+"Command","Storage","Set-StorageProvider: (Description: )"
+"Command","Storage","Set-StorageSetting: (Description: )"
+"Command","Storage","Set-StorageSubSystem: (Description: )"
+"Command","Storage","Set-StorageTier: (Description: )"
+"Command","Storage","Set-VirtualDisk: (Description: )"
+"Command","Storage","Set-Volume: (Description: )"
+"Command","Storage","Set-VolumeScrubPolicy: (Description: )"
+"Command","Storage","Show-StorageHistory: (Description: )"
+"Command","Storage","Show-VirtualDisk: (Description: )"
+"Command","Storage","Start-StorageDiagnosticLog: (Description: )"
+"Command","Storage","Stop-StorageDiagnosticLog: (Description: )"
+"Command","Storage","Stop-StorageJob: (Description: )"
+"Command","Storage","Unregister-StorageSubsystem: (Description: )"
+"Command","Storage","Unblock-FileShareAccess: (Description: )"
+"Command","Storage","Update-Disk: (Description: )"
+"Command","Storage","Update-HostStorageCache: (Description: )"
+"Command","Storage","Update-StorageFirmware: (Description: )"
+"Command","Storage","Update-StoragePool: (Description: )"
+"Command","Storage","Update-StorageProviderCache: (Description: )"
+"Command","Storage","Write-VolumeCache: (Description: )"
+"Command","Storage","Disable-PhysicalDiskIndication: (Description: )"
+"Command","Storage","Disable-StorageDiagnosticLog: (Description: )"
+"Command","Storage","Enable-PhysicalDiskIndication: (Description: )"
+"Command","Storage","Enable-StorageDiagnosticLog: (Description: )"
+"Command","Storage","Flush-Volume: (Description: )"
+"Command","Storage","Initialize-Volume: (Description: )"
+"Command","Storage","Write-FileSystemCache: (Description: )"
+"Command","Storage","Get-PhysicalDiskSNV: (Description: )"
+"Command","Storage","Get-DiskSNV: (Description: )"
+"Command","Storage","Get-StorageEnclosureSNV: (Description: )"
+"Module","StorageBusCache",""
+"Command","StorageBusCache","Clear-StorageBusDisk: (Description: )"
+"Command","StorageBusCache","Disable-StorageBusCache: (Description: )"
+"Command","StorageBusCache","Disable-StorageBusDisk: (Description: )"
+"Command","StorageBusCache","Enable-StorageBusCache: (Description: )"
+"Command","StorageBusCache","Enable-StorageBusDisk: (Description: )"
+"Command","StorageBusCache","Get-StorageBusDisk: (Description: )"
+"Command","StorageBusCache","Get-StorageBusBinding: (Description: )"
+"Command","StorageBusCache","New-StorageBusCacheStore: (Description: )"
+"Command","StorageBusCache","New-StorageBusBinding: (Description: )"
+"Command","StorageBusCache","Remove-StorageBusBinding: (Description: )"
+"Command","StorageBusCache","Resume-StorageBusDisk: (Description: )"
+"Command","StorageBusCache","Set-StorageBusProfile: (Description: )"
+"Command","StorageBusCache","Suspend-StorageBusDisk: (Description: )"
+"Command","StorageBusCache","Get-StorageBusCache: (Description: )"
+"Command","StorageBusCache","Set-StorageBusCache: (Description: )"
+"Command","StorageBusCache","Update-StorageBusCache: (Description: )"
+"Command","StorageBusCache","Get-StorageBusClientDevice: (Description: )"
+"Command","StorageBusCache","Get-StorageBusTargetDevice: (Description: )"
+"Command","StorageBusCache","Get-StorageBusTargetDeviceInstance: (Description: )"
+"Command","StorageBusCache","Get-StorageBusTargetCacheStore: (Description: )"
+"Command","StorageBusCache","Get-StorageBusTargetCacheStoresInstance: (Description: )"
+"Module","TLS",""
+"Command","TLS","New-TlsSessionTicketKey: (Description: New-TlsSessionTicketKey
+)"
+"Command","TLS","Enable-TlsSessionTicketKey: (Description: Enable-TlsSessionTicketKey
+)"
+"Command","TLS","Disable-TlsSessionTicketKey: (Description: Disable-TlsSessionTicketKey
+)"
+"Command","TLS","Export-TlsSessionTicketKey: (Description: Export-TlsSessionTicketKey
+)"
+"Command","TLS","Get-TlsCipherSuite: (Description: Get-TlsCipherSuite
+)"
+"Command","TLS","Enable-TlsCipherSuite: (Description: Enable-TlsCipherSuite
+)"
+"Command","TLS","Disable-TlsCipherSuite: (Description: Disable-TlsCipherSuite
+)"
+"Command","TLS","Get-TlsEccCurve: (Description: Get-TlsEccCurve
+)"
+"Command","TLS","Enable-TlsEccCurve: (Description: Enable-TlsEccCurve
+)"
+"Command","TLS","Disable-TlsEccCurve: (Description: Disable-TlsEccCurve
+)"
+"Module","TroubleshootingPack",""
+"Command","TroubleshootingPack","Get-TroubleshootingPack: (Description: Get-TroubleshootingPack
+)"
+"Command","TroubleshootingPack","Invoke-TroubleshootingPack: (Description: Invoke-TroubleshootingPack
+)"
+"Module","TrustedPlatformModule",""
+"Command","TrustedPlatformModule","Get-Tpm: (Description: Get-Tpm
+)"
+"Command","TrustedPlatformModule","Initialize-Tpm: (Description: Initialize-Tpm
+)"
+"Command","TrustedPlatformModule","Clear-Tpm: (Description: Clear-Tpm
+)"
+"Command","TrustedPlatformModule","Unblock-Tpm: (Description: Unblock-Tpm
+)"
+"Command","TrustedPlatformModule","Enable-TpmAutoProvisioning: (Description: Enable-TpmAutoProvisioning
+)"
+"Command","TrustedPlatformModule","Disable-TpmAutoProvisioning: (Description: Disable-TpmAutoProvisioning
+)"
+"Command","TrustedPlatformModule","Import-TpmOwnerAuth: (Description: Import-TpmOwnerAuth
+)"
+"Command","TrustedPlatformModule","Set-TpmOwnerAuth: (Description: Set-TpmOwnerAuth
+)"
+"Command","TrustedPlatformModule","ConvertTo-TpmOwnerAuth: (Description: ConvertTo-TpmOwnerAuth
+)"
+"Command","TrustedPlatformModule","Get-TpmEndorsementKeyInfo: (Description: Get-TpmEndorsementKeyInfo
+)"
+"Command","TrustedPlatformModule","Get-TpmSupportedFeature: (Description: Get-TpmSupportedFeature
+)"
+"Module","UEV",""
+"Command","UEV","Clear-UevConfiguration: (Description: Clear-UevConfiguration
+)"
+"Command","UEV","Clear-UevAppxPackage: (Description: Clear-UevAppxPackage
+)"
+"Command","UEV","Restore-UevBackup: (Description: Restore-UevBackup
+)"
+"Command","UEV","Set-UevTemplateProfile: (Description: Set-UevTemplateProfile
+)"
+"Command","UEV","Disable-UevAppxPackage: (Description: Disable-UevAppxPackage
+)"
+"Command","UEV","Enable-UevAppxPackage: (Description: Enable-UevAppxPackage
+)"
+"Command","UEV","Get-UevAppxPackage: (Description: Get-UevAppxPackage
+)"
+"Command","UEV","Import-UevConfiguration: (Description: Import-UevConfiguration
+)"
+"Command","UEV","Disable-UevTemplate: (Description: Disable-UevTemplate
+)"
+"Command","UEV","Enable-UevTemplate: (Description: Enable-UevTemplate
+)"
+"Command","UEV","Export-UevConfiguration: (Description: Export-UevConfiguration
+)"
+"Command","UEV","Get-UevConfiguration: (Description: Get-UevConfiguration
+)"
+"Command","UEV","Repair-UevTemplateIndex: (Description: Repair-UevTemplateIndex
+)"
+"Command","UEV","Set-UevConfiguration: (Description: Set-UevConfiguration
+)"
+"Command","UEV","Test-UevTemplate: (Description: Test-UevTemplate
+)"
+"Command","UEV","Restore-UevUserSetting: (Description: Restore-UevUserSetting
+)"
+"Command","UEV","Export-UevPackage: (Description: Export-UevPackage
+)"
+"Command","UEV","Update-UevTemplate: (Description: Update-UevTemplate
+)"
+"Command","UEV","Get-UevTemplate: (Description: Get-UevTemplate
+)"
+"Command","UEV","Get-UevTemplateProgram: (Description: Get-UevTemplateProgram
+)"
+"Command","UEV","Register-UevTemplate: (Description: Register-UevTemplate
+)"
+"Command","UEV","Unregister-UevTemplate: (Description: Unregister-UevTemplate
+)"
+"Command","UEV","Enable-Uev: (Description: Enable-Uev
+)"
+"Command","UEV","Disable-Uev: (Description: Disable-Uev
+)"
+"Command","UEV","Get-UevStatus: (Description: Get-UevStatus
+)"
+"Module","VMDirectStorage",""
+"Command","VMDirectStorage","Get-VMDirectVirtualDisk: (Description: )"
+"Command","VMDirectStorage","Add-VMDirectVirtualDisk: (Description: )"
+"Command","VMDirectStorage","Remove-VMDirectVirtualDisk: (Description: )"
+"Command","VMDirectStorage","Initialize-Volume: (Description: )"
+"Command","VMDirectStorage","Enable-PhysicalDiskIndication: (Description: )"
+"Command","VMDirectStorage","Write-FileSystemCache: (Description: )"
+"Command","VMDirectStorage","Disable-StorageDiagnosticLog: (Description: )"
+"Command","VMDirectStorage","Flush-Volume: (Description: )"
+"Command","VMDirectStorage","Enable-StorageDiagnosticLog: (Description: )"
+"Command","VMDirectStorage","Get-StorageEnclosureSNV: (Description: )"
+"Command","VMDirectStorage","Get-DiskSNV: (Description: )"
+"Command","VMDirectStorage","Get-PhysicalDiskSNV: (Description: )"
+"Command","VMDirectStorage","Disable-PhysicalDiskIndication: (Description: )"
+"Module","VpnClient",""
+"Command","VpnClient","Add-VpnConnection: (Description: )"
+"Command","VpnClient","Set-VpnConnection: (Description: )"
+"Command","VpnClient","Remove-VpnConnection: (Description: )"
+"Command","VpnClient","Get-VpnConnection: (Description: )"
+"Command","VpnClient","New-EapConfiguration: (Description: )"
+"Command","VpnClient","Set-VpnConnectionProxy: (Description: )"
+"Command","VpnClient","New-VpnServerAddress: (Description: )"
+"Command","VpnClient","Add-VpnConnectionRoute: (Description: )"
+"Command","VpnClient","Remove-VpnConnectionRoute: (Description: )"
+"Command","VpnClient","Set-VpnConnectionIPsecConfiguration: (Description: )"
+"Command","VpnClient","Add-VpnConnectionTriggerApplication: (Description: )"
+"Command","VpnClient","Remove-VpnConnectionTriggerApplication: (Description: )"
+"Command","VpnClient","Add-VpnConnectionTriggerDnsConfiguration: (Description: )"
+"Command","VpnClient","Remove-VpnConnectionTriggerDnsConfiguration: (Description: )"
+"Command","VpnClient","Set-VpnConnectionTriggerDnsConfiguration: (Description: )"
+"Command","VpnClient","Get-VpnConnectionTrigger: (Description: )"
+"Command","VpnClient","Add-VpnConnectionTriggerTrustedNetwork: (Description: )"
+"Command","VpnClient","Remove-VpnConnectionTriggerTrustedNetwork: (Description: )"
+"Command","VpnClient","Set-VpnConnectionTriggerTrustedNetwork: (Description: )"
+"Module","Wdac",""
+"Command","Wdac","Get-OdbcDriver: (Description: )"
+"Command","Wdac","Set-OdbcDriver: (Description: )"
+"Command","Wdac","Get-OdbcDsn: (Description: )"
+"Command","Wdac","Add-OdbcDsn: (Description: )"
+"Command","Wdac","Set-OdbcDsn: (Description: )"
+"Command","Wdac","Remove-OdbcDsn: (Description: )"
+"Command","Wdac","Get-OdbcPerfCounter: (Description: )"
+"Command","Wdac","Enable-OdbcPerfCounter: (Description: )"
+"Command","Wdac","Disable-OdbcPerfCounter: (Description: )"
+"Command","Wdac","Get-WdacBidTrace: (Description: )"
+"Command","Wdac","Enable-WdacBidTrace: (Description: )"
+"Command","Wdac","Disable-WdacBidTrace: (Description: )"
+"Module","Whea",""
+"Command","Whea","Get-WheaMemoryPolicy: (Description: Get-WheaMemoryPolicy
+)"
+"Command","Whea","Set-WheaMemoryPolicy: (Description: Set-WheaMemoryPolicy
+)"
+"Module","WindowsDeveloperLicense",""
+"Command","WindowsDeveloperLicense","Get-WindowsDeveloperLicense: (Description: Get-WindowsDeveloperLicense
+)"
+"Command","WindowsDeveloperLicense","Unregister-WindowsDeveloperLicense: (Description: Unregister-WindowsDeveloperLicense
+)"
+"Command","WindowsDeveloperLicense","Show-WindowsDeveloperLicenseRegistration: (Description: Show-WindowsDeveloperLicenseRegistration
+)"
+"Module","WindowsErrorReporting",""
+"Command","WindowsErrorReporting","Enable-WindowsErrorReporting: (Description: Enable-WindowsErrorReporting
+)"
+"Command","WindowsErrorReporting","Disable-WindowsErrorReporting: (Description: Disable-WindowsErrorReporting
+)"
+"Command","WindowsErrorReporting","Get-WindowsErrorReporting: (Description: Get-WindowsErrorReporting
+)"
+"Module","WindowsSearch",""
+"Command","WindowsSearch","Get-WindowsSearchSetting: (Description: Get-WindowsSearchSetting
+)"
+"Command","WindowsSearch","Set-WindowsSearchSetting: (Description: Set-WindowsSearchSetting
+)"
+"Module","WindowsUpdate",""
+"Command","WindowsUpdate","Get-WindowsUpdateLog: (Description: )"
+"Module","WinHttpProxy",""
+"Command","WinHttpProxy","Get-WinhttpProxy: (Description: )"
+"Command","WinHttpProxy","Export-WinhttpProxy: (Description: )"
+"Command","WinHttpProxy","Reset-WinhttpProxy: (Description: )"
+"Command","WinHttpProxy","Import-WinhttpProxy: (Description: )"
+"Command","WinHttpProxy","Set-WinhttpProxy: (Description: )"
+"Module","PowerShellEditorServices",""
+"Command","PowerShellEditorServices","Start-EditorServices: (Description: Start-EditorServices
+)"
+"Module","PSReadLine",""
+"Command","PSReadLine","Get-PSReadLineKeyHandler: (Description: Get-PSReadLineKeyHandler
+)"
+"Command","PSReadLine","Set-PSReadLineKeyHandler: (Description: Set-PSReadLineKeyHandler
+)"
+"Command","PSReadLine","Remove-PSReadLineKeyHandler: (Description: Remove-PSReadLineKeyHandler
+)"
+"Command","PSReadLine","Get-PSReadLineOption: (Description: Get-PSReadLineOption
+)"
+"Command","PSReadLine","Set-PSReadLineOption: (Description: Set-PSReadLineOption
+)"
+"Command","PSReadLine","PSConsoleHostReadLine: (Description: )"
+"Module","PSScriptAnalyzer",""
+"Command","PSScriptAnalyzer","Get-ScriptAnalyzerRule: (Description: Get-ScriptAnalyzerRule
+)"
+"Command","PSScriptAnalyzer","Invoke-ScriptAnalyzer: (Description: Invoke-ScriptAnalyzer
+)"
+"Command","PSScriptAnalyzer","Invoke-Formatter: (Description: Invoke-Formatter
+)"

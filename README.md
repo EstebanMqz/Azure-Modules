@@ -41,6 +41,29 @@ Find-Module -Name *Azure* -Repository PSGallery
 # 0.5.4      Azure.AnalysisServices              PSGallery            Microsoft Azure PowerShell - Analysis Services s...
 # 5.3.1      Azure                               PSGallery            Microsoft Azure PowerShell - Service Management...
 ```
+Before installing Azure modules we must know that PowerShell PATHs are shared so any of the modules will be available in any [PowerShell](https://github.com/PowerShell/PowerShell) .exe or terminal. 
+
+```powershell
+# Shared PS Modules paths
+$ModulePaths = $env:PSModulePath -split ';' ; Write-Output $ModulePaths
+#e.g. 
+# C:\Users\Esteban\Documents\WindowsPowerShell\Modules
+# C:\Program Files\WindowsPowerShell\Modules
+# C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# c:\Users\Esteban\.vscode\extensions\ms-vscode.powershell-2024.2.2\modules
+```
+
+
+Now, with [![Azure](https://img.shields.io/badge/-Azure-0078D4?&logo=azure&logoColor=blue&labelColor=white)](https://github.com/EstebanMqz/Azure-Modules/tree/main/.ps1/Modules_cmdlets.ps1)
+ we can make a list of all the modules installed in the PATHs & the cmdlets available in each one of them.<br>
+They are contained in [`ModulesAndCommands.csv`](github.com/EstebanMqz/Azure-Modules/.csv/ModulesAndCommands.csv).
+Now, we can proceed to describe all [Azure](https://portal.azure.com/#allservices/category/All) modules & their cmdlets and describe them with [PowerShell](https://github.com/PowerShell/PowerShell) or Unix-like terminals like [Git Bash](https://git-scm.com/downloads) from the web directly from the [PS Gallery](https://www.powershellgallery.com/).<br>
+
++ [Azure PowerShell](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-7.1.0) is the most straightforward method for managing [Azure](https://portal.azure.com/#allservices/category/All) resources using [PowerShell](https://github.com/PowerShell/PowerShell).<br>
++ [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest) can be seamlessly integrated into [PowerShell](https://github.com/PowerShell/PowerShell), allowing users to utilize both command sets.<br>
++ [Azure SDK](https://github.com/Azure/azure-sdk) modules, cmdlets & commands can be accessed from [Powershell SDK Modules](https://www.powershellgallery.com/profiles/azure-sdk) and they are made specially for Azure developers providing greater capabilities than the user-friendly Portal, which might be faster if our setup isn't designed to code every functionality of Azure without remembering it all to detail.<br> 
 
 
 
+
+ 

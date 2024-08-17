@@ -1,0 +1,6 @@
+#.gitignore
+
+#Pending: Modules_PATHs.ps1 for all 528 Azure modules in PS Gallery without downloading the mods.
+#To have a quick read to all cmdlets & grasp Azure's potential with PS within region (if any).
+
+.ps1/Azure_Modules.ps1
