@@ -63,6 +63,22 @@ Now, we can proceed to describe all [Azure](https://portal.azure.com/#allservice
 + [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest) can be seamlessly integrated into [PowerShell](https://github.com/PowerShell/PowerShell), allowing users to utilize both command sets.<br>
 + [Azure SDK](https://github.com/Azure/azure-sdk) modules, cmdlets & commands can be accessed from [Powershell SDK Modules](https://www.powershellgallery.com/profiles/azure-sdk) and they are made specially for Azure developers providing greater capabilities than the user-friendly Portal, which might be faster if our setup isn't designed to code every functionality of Azure without remembering it all to detail.<br> 
 
+While it isn't directly related to [Azure](https://portal.azure.com/#allservices/category/All), [NirCmd](https://www.nirsoft.net) is a command-line utility that performs a variety of tasks in Windows such as updating the [Registries](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg), write values into [INI]() files, and more. It
+
+ files related to JSON, XML and Registries files (older versions of Windows) but it can be used for automation in Windows for older types of files such as: 
+
+  + <h3> Registry Editor <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg">
+    <img style="margin-bottom: -5px" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Registry.svg/1920px-Registry.svg.png">
+  </a></h3>
+
+  + <h3>Extensible Markup Language (XML) <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction"><img style="margin-bottom: -10px" width="40px" src="https://www.svgrepo.com/show/354054/mdn.svg">
+  </a></h3>
+
+  + <h3>JavaScript Object Notation (JSON) <a href="https://www.json.org/json-en.html">
+    <img style="margin-bottom: -10px" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png">
+  </a></h3>
+
+</div>
 
 
 
