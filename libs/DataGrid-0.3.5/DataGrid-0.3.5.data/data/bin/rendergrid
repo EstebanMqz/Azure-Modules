@@ -1,0 +1,205 @@
+#!/usr/bin/env python
+#------------------------------------------------------------------------#
+# DataGrid - Tabular Data Rendering Library
+# Copyright (C) 2009-2010 Adam Wagner <awagner@redventures.com>
+#                    Kenny Parnell <kparnell@redventures.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published 
+# by the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#------------------------------------------------------------------------#
+
+"""
+Simple command-line application for using DataGrid.  For usage info:
+    ./rendergrid --help
+
+Non-Python applications (ie php-bindings) use this executable
+"""
+
+import sys
+import csv
+import gzip
+from pydoc import pager
+from optparse import OptionParser, OptionGroup
+
+from datagrid.core import DataGrid, ColumnDoesNotExistError
+from datagrid import datatools, formattools, aggregatetools
+
+
+def main():
+    """Command-line interface main method"""
+
+    # Configure & Parse Command-Line args
+    parser = OptionParser('Usage: %prog [OPTIONS] DATAFILE')
+
+    # Ordinary (or generic) options
+    parser.add_option('--html', action='store_const', 
+            const='datagrid.renderer.html', dest='renderer',
+            help='Render HTML table')
+    parser.add_option('--text', action='store_const',
+            const='datagrid.renderer.ascii', dest='renderer',
+            help='Render Text (ASCII) table [default]')
+    parser.add_option('--renderer',
+            default='datagrid.renderer.ascii', 
+            help='Use custom table renderer')
+    parser.add_option('--rendereroption', action='append', default=[])
+    parser.add_option('--stdin', action='store_true')
+    
+    # Report data options
+    datagroup = OptionGroup(parser, 'Data defination and manipulation options')
+    datagroup.add_option('-A', '--autocolumn', action='store_true',
+            help='Derive column headers from DATAFILE')
+    datagroup.add_option('-c', '--column', action='append',
+            help='Set the column header') 
+    datagroup.add_option('-g', '--groupby', action='append',
+            help='Set the report aggregation', default=[])
+    datagroup.add_option('-a', '--aggregate', action='append', default=[],
+            help='Set the aggregation method for a given column.  '
+                    'Example: --aggregate="column|sum"')
+    datagroup.add_option('--calculate', action='append', default=[],
+            help='Add column by running the given calculation.  '
+                    'Example: --calculate="c|{a}+{b}"')
+    datagroup.add_option('--columndescription', action='append', default=[],
+            help='Provide a description for the given column.  '
+                    'Example: --columndescription="c|Really helpful info."')
+    datagroup.add_option('-s', '--sort', action='append', default=[],
+            help='Set the sort column(s)')
+    datagroup.add_option('-F','--filter', action='append', default=[],
+            metavar='EXPRESSION', help='Filter out rows that return false for'
+            ' the given expression')
+    datagroup.add_option('-P','--post_filter', action='append', default=[],
+            metavar='EXPRESSION', help='Filter out rows that return false for'
+            ' the given expression post aggregration')
+    datagroup.add_option('--suppressdetail', action='store_true',
+            help='Suppress detail rows (requires aggregration)')
+    datagroup.add_option('--type', action='append', default=[],
+            help='Set the type (str|float) of a column.  '
+                    'If no --type declarations are made, each column-type '
+                    'is guessed')
+
+    # Display options
+    displaygroup = OptionGroup(parser, 'Data display options')
+    displaygroup.add_option('-d', '--display', action='append', default=[],
+            help='Set display column.  '
+                    '(Optional - if not set, all columns are used)')
+    displaygroup.add_option('-f', '--format', action='append', default=[],
+            help='Set column formatters')
+    displaygroup.add_option('-o', '--output', help='Save output to file')
+
+    # Parse options
+    parser.add_option_group(datagroup)
+    parser.add_option_group(displaygroup)
+    options, args = parser.parse_args()
+
+    # Load table renderer
+    try:
+        __import__(options.renderer)
+        renderer = sys.modules[options.renderer]
+
+        # Check for 'Renderer' class, otherwise use loaded module
+        if hasattr(renderer, 'Renderer'):
+            renderer = renderer.Renderer()
+            
+            # Set requested renderer options
+            for option in options.rendereroption:
+                key, value = option.split('|')
+                setattr(renderer, key, value)
+            
+    except ImportError:
+        parser.error("%s table renderer could not be found" 
+                % options.renderer)
+
+    # Attempt to load datafile
+    try:
+        # map data(stdin, compressed, or raw)
+        if options.stdin:
+            data = csv.reader(sys.stdin)
+        elif args[0].endswith('.gz'):
+            data = csv.reader(gzip.open(args[0], 'rb'))    # load data file
+        else:
+            data = csv.reader(open(args[0]))    # load data file
+            
+        columns = data.next() if options.autocolumn else options.column
+    except StopIteration: 
+        parser.error("Data file is empty")
+    except IndexError:
+        parser.error("No file was supplied")
+    except IOError:
+        parser.error("%s does not exist, or is inaccessable" % args[0])
+
+    # Setup column types
+    if options.type:
+        types = options.type
+    else:
+        data = list(data)
+        types = options.type or datatools.get_column_types(data)
+
+    # Apply type conversions to data
+    data = datatools.set_column_types(data, types)
+
+    # Parse aggregate methods
+    try:
+        aggregate = aggregatetools.parse_options(options.aggregate)
+    except KeyError:
+        parser.error("Invalid aggregation method or column name")
+    except ValueError:
+        parser.error("Invalid format passed to --aggregate method")
+        
+    # Preset formatters from what type of columns we have
+    for key, columntype in enumerate(types):
+        if columntype is float: 
+            options.format.insert(0, '%s|plain_number' % columns[key])
+
+    # Parse column formatters
+    formatters = formattools.parse_options(options.format)
+
+    # Parse calculated-column methods
+    calculations = dict(c.split('|') for c in options.calculate)
+
+    # Parse column descriptions
+    descriptions = dict(d.split('|') for d in options.columndescription)
+
+    # Parse sort options
+    sortby = [s.split('|') if '|' in s else s for s in options.sort]
+
+    # Verify aggregate are defined columns
+    if options.groupby and columns:
+        invalid_group_options = set(options.groupby) - set(columns)
+        if invalid_group_options:
+            parser.error("groupby column(s): '%s' not found in column list" %
+                    "', '".join(invalid_group_options))
+
+    # Create datagrid instance and render to stdout
+    grid = DataGrid(data, columns, descriptions, options.groupby,
+            aggregate, options.suppressdetail, calculations, sortby,
+            options.display, formatters, filters=options.filter,
+            post_aggregate_filters=options.post_filter)
+
+    try:
+        if options.output:
+            with open(options.output, 'w') as outfile:
+                outfile.write(grid.render(renderer))
+        else:
+            pager(grid.render(renderer))
+    except ColumnDoesNotExistError, e:
+        parser.error("Column '%s' could not be found!" % e)
+
+
+# Run if called directly
+if __name__ == '__main__':
+    try:
+        main()
+    except IOError: 
+        # allow graceful use of piping
+        pass
+
+

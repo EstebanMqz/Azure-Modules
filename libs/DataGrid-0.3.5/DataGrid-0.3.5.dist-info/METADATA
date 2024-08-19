@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: DataGrid
+Version: 0.3.5
+Summary: Tabular data rendering library
+Home-page: http://github.com/redventures-oss/DataGrid
+Author: Adam Wagner, Kenny Parnell
+Author-email: awagner83@gmail.com, k.parnell@gmail.com
+License: LGPL 3
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: JavaScript
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+License-File: COPYING
+License-File: COPYING.LESSER
+
+UNKNOWN
+
