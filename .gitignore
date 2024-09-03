@@ -1,6 +1,9 @@
 #.gitignore
 
-#Pending: Modules_PATHs.ps1 for all 528 Azure modules in PS Gallery without downloading the mods.
-#To have a quick read to all cmdlets & grasp Azure's potential with PS within region (if any).
+# Ignore specific scripts
+.sh/Login_Tenant.sh
 
-.ps1/Azure_Modules.ps1
+# Ignore all .msi files
+# *.msi unnecessary because of binaries: 'git lfs track *.msi' 
+
+
