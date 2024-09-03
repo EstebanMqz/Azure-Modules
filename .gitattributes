@@ -1,1 +1,11 @@
+
+#  * Specifies the Git attributes for the file github.com/EstebanMqz/Azure-Modules/blob/main/.gitattributes
+#  * 
+#  * This file contains the following attribute:
+#  * - *.msi: Specifies that files with the .msi extension should be treated as Large File Storage (LFS) files.
+#  *   - filter=lfs: Specifies that the file should be filtered using the LFS filter.
+#  *   - diff=lfs: Specifies that the file should be diffed using the LFS diff.
+#  *   - merge=lfs: Specifies that the file should be merged using the LFS merge.
+#  *   - -text: Specifies that the file should be treated as binary and not as text.
+
 *.msi filter=lfs diff=lfs merge=lfs -text
