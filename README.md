@@ -28,8 +28,11 @@ To make sure the Azure beginner's credentials are accomplished &nbsp;
 <b>Azure Modules, their cmdlets & their detailed descriptions will be obtained<br>
 so we understand Azure's core concepts, services & how to manage them.</b>
 </div><br>
+<b> Description</b><br>
 
-<i>The [PS Gallery](https://www.powershellgallery.com/) is the official repository of [PowerShell](https://github.com/PowerShell/PowerShell) modules and as it's the most popular it is officially maintained by [Microsoft](www.microsoft.com), nevertheless, there are other repositories where you can find PowerShell modules.
+<i>[Azure](https://portal.azure.com/#allservices/category/All) is a cloud computing service created by Microsoft for building, testing, deploying, and managing apps & services through Microsoft-managed data centers. It provides software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS) and supports many different programming languages, tools, and frameworks, including both Microsoft-specific and third-party software and systems.<br>
+
+The [PS Gallery](https://www.powershellgallery.com/) is the official repository of [PowerShell](https://github.com/PowerShell/PowerShell) modules and it's officially maintained by [Microsoft](www.microsoft.com), nevertheless, there are other repositories where you can find PowerShell modules.
 [Azure](https://portal.azure.com/#allservices/category/All) modules tend to be installed in the [PS Gallery](www.powershellgallery.com) so, while there are 13k+ modules, the following line counts all the [Azure](https://portal.azure.com/#allservices/category/All) modules in the [PS Gallery](www.powershellgallery.com), each with their unique set of [cmdlets](https://docs.microsoft.com/en-us/powershell/scripting/developer/cmdlet/cmdlet-overview?view=powershell-7.1) which are the commands you can use in your PowerShell scripts once the Azure module is installed.</i>
 
 ```powershell
@@ -61,17 +64,16 @@ Now, we can proceed to describe all [Azure](https://portal.azure.com/#allservice
 + [Azure PowerShell](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-7.1.0) is the most straightforward method for managing [Azure](https://portal.azure.com/#allservices/category/All) resources using [PowerShell](https://github.com/PowerShell/PowerShell).<br>
 + [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest) can be seamlessly integrated into [PowerShell](https://github.com/PowerShell/PowerShell), allowing users to utilize both command sets.<br>
 + [Azure SDK](https://github.com/Azure/azure-sdk) modules, cmdlets & commands can be accessed from [Powershell SDK Modules](https://www.powershellgallery.com/profiles/azure-sdk) and they are made specially for Azure developers providing greater capabilities than the user-friendly Portal, which might be faster if our setup isn't designed to code every functionality of Azure without remembering it all to detail.<br> 
-While it isn't directly related to [Azure](https://portal.azure.com/#allservices/category/All), [NirCmd](https://www.nirsoft.net) is a command-line utility that performs a variety of tasks in Windows such as updating the [Registries](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg), write values into [INI]() files, and more. It
- files related to JSON, XML and Registries files (older versions of Windows) but it can be used for automation in Windows for older types of files such as: 
-  + <h3> Registry Editor <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg">
+While it isn't directly related to [Azure](https://portal.azure.com/#allservices/category/All), [NirCmd](https://www.nirsoft.net) is a command-line utility that performs a variety of tasks in Windows such as updating the [Registries](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg), write values into [INI]() files, and more. It's files are related to JSON, XML and Registries (older versions) but it can be used for automation on files such as: 
+
+<h3> Registry Editor <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg">
     <img style="margin-bottom: -5px" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Registry.svg/1920px-Registry.svg.png">
   </a></h3>
-  + <h3>Extensible Markup Language (XML) <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction"><img style="margin-bottom: -10px" width="40px" src="https://www.svgrepo.com/show/354054/mdn.svg">
+<h3>Extensible Markup Language (XML) <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction"><img style="margin-bottom: -10px" width="40px" src="https://www.svgrepo.com/show/354054/mdn.svg">
   </a></h3>
-  + <h3>JavaScript Object Notation (JSON) <a href="https://www.json.org/json-en.html">
+<h3>JavaScript Object Notation (JSON) <a href="https://www.json.org/json-en.html">
     <img style="margin-bottom: -10px" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png">
-  </a></h3>
-</div>
+  </a></h3></div>
 
 For .[`ModulesAndCommands.csv`](github.com/EstebanMqz/Azure-Modules/.csv/ModulesAndCommands.csv) the module [DataGrid](github.com/EstebanMqz/Azure-Modules/libs/DataGrid-0.3.5) refs. 
 ``` sh
@@ -87,6 +89,16 @@ wheel unpack DataGrid-0.3.5-py3-none-any.whl
 ```
 Unpacking the [repository](https://github.com/RedVentures/DataGrid) files.
 
+# References:
 
++ [Tenants](https://portal.azure.com/#view/Microsoft_AAD_IAM/DirectorySwitchBlade/subtitle/)
++ [Subscriptions](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2)
++ [DataGrid](https://github.com/RedVentures/DataGrid)
++ [XML](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction)
++ [JSON](https://www.json.org/json-en.html)
++ [Regedit](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg)
++ [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest)
++ [Azure PowerShell](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-7.1.0)
++ [Azure SDK](https://github.com/Azure/azure-sdk)
 
  

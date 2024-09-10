@@ -1,19 +1,23 @@
-#Retrieves the paths of the all PowerShell modules Paths and cmdlets in modules that can be loaded from any PS session.
+#Description: Modules_cmdlets.ps1 Lists all modules in the PSModulePaths and their exported commands to a .CSV file.
 
-# Get the module paths
+Set-ExecutionPolicy Unrestricted -Scope Process -Force
+
+$cwd = Get-Location #Get the current working directory
+if (-Not (Test-Path "$cwd\..\.csv")) {
+    New-Item -Path "$cwd\..\.csv" -ItemType Directory
+} #Create a .csv directory if it doesn't exist in the parent directory.
+
 $ModulePaths = $env:PSModulePath -split ';'
-
-# Create a list to store the data
 $data = @()
 
-# Add paths to the data list
 foreach ($Path in $ModulePaths) {
     $data += [PSCustomObject]@{
         Type    = 'Path'
         Name    = $Path
         Command = ''
     }
-}
+} #Have the Module Command & Descriptions made for each cmdlet
+
 
 # Get all available modules
 $availableModules = Get-Module -ListAvailable
@@ -33,7 +37,8 @@ foreach ($module in $availableModules) {
         $data += [PSCustomObject]@{
             Type    = 'Command'
             Name    = $module.Name
-            Command = "${command}: (Description: $($commandObject.Definition))"
+            #Have the cmdlets help function retrieved after "Description:"
+            Command = "${command}: (Description: $($commandObject.DetailedDescription))"
         }
     }
 }
@@ -56,3 +61,5 @@ $csvFilePath = Join-Path -Path $csvDir -ChildPath 'ModulesAndCommands.csv'
 # Export the data to the CSV file
 $data | Export-Csv -Path $csvFilePath -NoTypeInformation -Force
 
+#The CSV file is created in the .csv directory
+Write-Host "The CSV file has been created at: ..$csvFilePath"
