@@ -56,22 +56,26 @@ $ModulePaths = $env:PSModulePath -split ';' ; Write-Output $ModulePaths
 # c:\Users\Esteban\.vscode\extensions\ms-vscode.powershell-2024.2.2\modules
 ```
 
-Now, with [![Azure](https://img.shields.io/badge/-Azure-0078D4?&logo=azure&logoColor=blue&labelColor=white)](https://github.com/EstebanMqz/Azure-Modules/tree/main/.ps1/Modules_cmdlets.ps1)
- we can make a list of all the modules installed in the PATHs & the cmdlets available in each one of them.<br>
-They are contained in [`ModulesAndCommands.csv`](github.com/EstebanMqz/Azure-Modules/.csv/ModulesAndCommands.csv).
+Now, with the Azure modules installation through [PS Gallery](https://www.powershellgallery.com/) with the script [`Install_Modules.ps1`](github.com/EstebanMqz/Azure-Modules/scripts/tree/main/.ps1/Install_Modules.ps1) we can install all the Azure modules available in the [PS Gallery](https://www.powershellgallery.com/). The modules and the cmdlets are saved within a .csv file. in the [`Modules_cmdlets.csv`](github.com/EstebanMqz/Azure-Modules/tree/main/.csv/Modules_cmdlets) repository.<br>
+
+
 Now, we can proceed to describe all [Azure](https://portal.azure.com/#allservices/category/All) modules & their cmdlets and describe them with [PowerShell](https://github.com/PowerShell/PowerShell) or Unix-like terminals like [Git Bash](https://git-scm.com/downloads) from the web directly from the [PS Gallery](https://www.powershellgallery.com/).<br>
 
 + [Azure PowerShell](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azps-7.1.0) is the most straightforward method for managing [Azure](https://portal.azure.com/#allservices/category/All) resources using [PowerShell](https://github.com/PowerShell/PowerShell).<br>
 + [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest) can be seamlessly integrated into [PowerShell](https://github.com/PowerShell/PowerShell), allowing users to utilize both command sets.<br>
-+ [Azure SDK](https://github.com/Azure/azure-sdk) modules, cmdlets & commands can be accessed from [Powershell SDK Modules](https://www.powershellgallery.com/profiles/azure-sdk) and they are made specially for Azure developers providing greater capabilities than the user-friendly Portal, which might be faster if our setup isn't designed to code every functionality of Azure without remembering it all to detail.<br> 
-While it isn't directly related to [Azure](https://portal.azure.com/#allservices/category/All), [NirCmd](https://www.nirsoft.net) is a command-line utility that performs a variety of tasks in Windows such as updating the [Registries](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg), write values into [INI]() files, and more. It's files are related to JSON, XML and Registries (older versions) but it can be used for automation on files such as: 
++ [Azure SDK](https://github.com/Azure/azure-sdk) modules, cmdlets & commands can be accessed from [Powershell SDK Modules](https://www.powershellgallery.com/profiles/azure-sdk) and they are made specially for Azure developers providing greater capabilities than the user-friendly Portal, which might be faster if our setup isn't designed to code every functionality of Azure without remembering it all to detail.<br><br>
 
-<h3> Registry Editor <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg">
+<div  style="font-size: 18px;">
+
+While not related directly to [Azure](https://portal.azure.com/#allservices/category/All):
++ [NirCmd](github.com/EstebanMqz/Azure-Modules/raw/main/docs/NirCmd.chm) is a command-line utility that performs a variety of tasks in Windows such as updating the [Registries](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg), write values into [INI](https://learn.microsoft.com/en-us/archive/msdn-technet-forums/9ef7689c-26a1-42d8-8eff-1653383590f2) files, and more. It's files were much more related JSON, XML and Registries (from older versions) but it can be used for automation on files such as: 
+
++ <h3> Registry Editor <a href="https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg">
     <img style="margin-bottom: -5px" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Registry.svg/1920px-Registry.svg.png">
   </a></h3>
-<h3>Extensible Markup Language (XML) <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction"><img style="margin-bottom: -10px" width="40px" src="https://www.svgrepo.com/show/354054/mdn.svg">
++ <h3>Extensible Markup Language (XML) <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction"><img style="margin-bottom: -10px" width="40px" src="https://www.svgrepo.com/show/354054/mdn.svg">
   </a></h3>
-<h3>JavaScript Object Notation (JSON) <a href="https://www.json.org/json-en.html">
++ <h3>JavaScript Object Notation (JSON) <a href="https://www.json.org/json-en.html">
     <img style="margin-bottom: -10px" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png">
   </a></h3></div>
 
