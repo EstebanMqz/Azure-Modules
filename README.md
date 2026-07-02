@@ -91,10 +91,9 @@ sudo python3 -m pip install wheel
 wheel unpack DataGrid-0.3.5-py3-none-any.whl
 # DataGrid-0.35.0
 ```
-Unpacking the [repository](https://github.com/RedVentures/DataGrid) files.
+Unpacking the [Repository](https://github.com/RedVentures/DataGrid) files.
 
 # References:
-
 + [Tenants](https://portal.azure.com/#view/Microsoft_AAD_IAM/DirectorySwitchBlade/subtitle/)
 + [Subscriptions](https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2)
 + [DataGrid](https://github.com/RedVentures/DataGrid)
